@@ -1,7 +1,7 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.0.0
+version: 1.1.0
 ---
 
 # OHDA method
@@ -37,8 +37,14 @@ deciding are written down.**
    should either solve the problem or produce more relevant information; if it does neither,
    it's not worth the slot.
 4. **A — Act.** Execute your best shot, and make it traceable/replayable (e.g. record the
-   exact command, a git commit id). Record the result *before* moving on. This produces a new
-   observation, feeding the next iteration.
+   exact command, a git commit id). Record the result *before* moving on.
+
+**Every `A:` is immediately followed by an `O:` that closes the loop against the hypothesis
+it tested** — not just "here's the output", but an explicit verdict: what you now see, what
+you expected, and whether the hypothesis is accepted or rejected. E.g. `O: permissions are
+000, not 644 as expected → H "wrong permissions" accepted`. This is what makes the log
+replayable reasoning rather than a bare transcript — a reader can follow *why* the loop moved
+on, not just *that* it did. That `O:` is also the seed observation for the next iteration.
 
 Stop when the observation matches the expectation. Otherwise, loop again — most real
 diagnoses take multiple passes.
@@ -95,9 +101,13 @@ On close:
    the fact that a path was tried and failed is itself valuable information for the next
    reader. Make the log more self-contained: fill in the "wait, what was that again" gaps you
    glossed over while moving fast.
-3. If the host project has its own promotion path for conclusions (e.g. a `fact`/`journal`
-   layer), point the user at it rather than assuming — this skill owns the worklog, not
-   necessarily where its conclusion gets promoted to.
+3. **Promote the lesson learned into the project's CLAUDE.md by default**, under a
+   `## Lessons learned` section (create it if absent) — one entry per closed-out log, dated,
+   with a one/two-line summary and a link/path to the full worklog. CLAUDE.md is already read
+   at the start of every session in this project, so this is what actually gets a lesson
+   *seen* again, rather than filed and forgotten. Exception: if the host project has its own
+   richer promotion path for conclusions (e.g. a `fact`/`journal`/`hyp` memory layer, as in
+   Peters Infra), defer to that instead — don't create a competing CLAUDE.md section there.
 
 ## Worked example
 
@@ -109,5 +119,7 @@ H:  we are not the user we think we are
 D:  check permissions, `ls -l`
 A:  % ls -l readme.txt
     ----------  1 peter  wheel  48 Jan 25 12:32 readme.txt
+O:  permissions are 000, expected 644 → H "wrong permissions" accepted
 ```
-(Permissions are `000` — first hypothesis confirmed, fix follows directly.)
+(Verdict is explicit in the closing `O:` — no need to re-read the `A:` output to know the
+loop resolved.)
