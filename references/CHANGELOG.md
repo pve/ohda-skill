@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.2.0 — 2026-09-10
+- Source pinned to the actual video: "Introducing the OHDA method for
+  professional IT troubleshooting" (Club Cloud Computing, 2024-01-25),
+  <https://www.youtube.com/watch?v=rQ5MpGWCiUw>; flattened transcript added
+  as `references/source-transcript-2024-01-25.srt`; link added to README.
+- Observe: added the concrete replayability test — hand the write-up to
+  someone who wasn't there; if they can't proceed without asking you, it's
+  not observed yet.
+- Hypothesize: hypothesizing may itself need small non-solving experiments
+  that feed observations back into the loop.
+- Decide: explicitly-written candidate actions can be parcelled out to
+  multiple people/teams at large scale.
+- Worklog: TL;DR is updated at every pause/break, not only at closing out.
+- Why: added the "big idea" framing (explicit desired result / options /
+  chosen action → reliable performance + teachable) and "professional is a
+  process, not a state of mind".
+- Act: every `A:` must name the `D:` it executes and the objective it
+  serves; and before acting, judge whether the action needs a human in the
+  loop (destructive / outward-facing / irreversible / outside mandate) and
+  stop for confirmation if so.
+- Worklog is Markdown: each O/H/D/A step is its own blank-line-separated
+  paragraph, raw output in fenced code blocks — so it actually renders.
+  Worked example rewritten to match.
+
 ## 1.1.0 — 2026-08-26
 - Every `A:` must be immediately followed by an `O:` that explicitly closes
   the loop against the hypothesis it tested (what you now see, what you

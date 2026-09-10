@@ -1,0 +1,2735 @@
+1
+00:00:01,480 --> 00:00:03,550
+
+in this video I want to introduce you to
+
+2
+00:00:03,550 --> 00:00:03,560
+in this video I want to introduce you to
+ 
+
+3
+00:00:03,560 --> 00:00:06,030
+in this video I want to introduce you to
+a simple method for professional it
+
+4
+00:00:06,030 --> 00:00:06,040
+a simple method for professional it
+ 
+
+5
+00:00:06,040 --> 00:00:10,030
+a simple method for professional it
+troubleshooting I call it the Oda method
+
+6
+00:00:10,030 --> 00:00:10,040
+troubleshooting I call it the Oda method
+ 
+
+7
+00:00:10,040 --> 00:00:12,830
+troubleshooting I call it the Oda method
+now what's a professional a professional
+
+8
+00:00:12,830 --> 00:00:12,840
+now what's a professional a professional
+ 
+
+9
+00:00:12,840 --> 00:00:14,749
+now what's a professional a professional
+is somebody who uses an approach that is
+
+10
+00:00:14,749 --> 00:00:14,759
+is somebody who uses an approach that is
+ 
+
+11
+00:00:14,759 --> 00:00:17,510
+is somebody who uses an approach that is
+shared by other professionals it's
+
+12
+00:00:17,510 --> 00:00:17,520
+shared by other professionals it's
+ 
+
+13
+00:00:17,520 --> 00:00:20,349
+shared by other professionals it's
+shared and because of that it is
+
+14
+00:00:20,349 --> 00:00:20,359
+shared and because of that it is
+ 
+
+15
+00:00:20,359 --> 00:00:23,750
+shared and because of that it is
+reliable it is more consistent and it is
+
+16
+00:00:23,750 --> 00:00:23,760
+reliable it is more consistent and it is
+ 
+
+17
+00:00:23,760 --> 00:00:25,390
+reliable it is more consistent and it is
+above all more
+
+18
+00:00:25,390 --> 00:00:25,400
+above all more
+ 
+
+19
+00:00:25,400 --> 00:00:28,470
+above all more
+scalable amateurs do it on their own way
+
+20
+00:00:28,470 --> 00:00:28,480
+scalable amateurs do it on their own way
+ 
+
+21
+00:00:28,480 --> 00:00:31,070
+scalable amateurs do it on their own way
+they're individuals they do It For the
+
+22
+00:00:31,070 --> 00:00:31,080
+they're individuals they do It For the
+ 
+
+23
+00:00:31,080 --> 00:00:33,030
+they're individuals they do It For the
+Love of it that's what the word amateur
+
+24
+00:00:33,030 --> 00:00:33,040
+Love of it that's what the word amateur
+ 
+
+25
+00:00:33,040 --> 00:00:35,150
+Love of it that's what the word amateur
+means for the
+
+26
+00:00:35,150 --> 00:00:35,160
+means for the
+ 
+
+27
+00:00:35,160 --> 00:00:38,150
+means for the
+loving they can be faster or better than
+
+28
+00:00:38,150 --> 00:00:38,160
+loving they can be faster or better than
+ 
+
+29
+00:00:38,160 --> 00:00:40,910
+loving they can be faster or better than
+professionals maybe maybe not but the
+
+30
+00:00:40,910 --> 00:00:40,920
+professionals maybe maybe not but the
+ 
+
+31
+00:00:40,920 --> 00:00:44,590
+professionals maybe maybe not but the
+bottom line is alone you go faster
+
+32
+00:00:44,590 --> 00:00:44,600
+bottom line is alone you go faster
+ 
+
+33
+00:00:44,600 --> 00:00:46,869
+bottom line is alone you go faster
+together you go further that's what
+
+34
+00:00:46,869 --> 00:00:46,879
+together you go further that's what
+ 
+
+35
+00:00:46,879 --> 00:00:49,470
+together you go further that's what
+professionals do go
+
+36
+00:00:49,470 --> 00:00:49,480
+professionals do go
+ 
+
+37
+00:00:49,480 --> 00:00:53,750
+professionals do go
+together step one observe or in D
+
+38
+00:00:53,750 --> 00:00:53,760
+together step one observe or in D
+ 
+
+39
+00:00:53,760 --> 00:00:56,510
+together step one observe or in D
+raming what do you see that you don't
+
+40
+00:00:56,510 --> 00:00:56,520
+raming what do you see that you don't
+ 
+
+41
+00:00:56,520 --> 00:00:59,709
+raming what do you see that you don't
+expect or what do you expect that you
+
+42
+00:00:59,709 --> 00:00:59,719
+expect or what do you expect that you
+ 
+
+43
+00:00:59,719 --> 00:01:02,590
+expect or what do you expect that you
+don't don't see here's an example this
+
+44
+00:01:02,590 --> 00:01:02,600
+don't don't see here's an example this
+ 
+
+45
+00:01:02,600 --> 00:01:06,190
+don't don't see here's an example this
+is what we see this however is what we
+
+46
+00:01:06,190 --> 00:01:06,200
+is what we see this however is what we
+ 
+
+47
+00:01:06,200 --> 00:01:08,910
+is what we see this however is what we
+expect it's not the same
+
+48
+00:01:08,910 --> 00:01:08,920
+expect it's not the same
+ 
+
+49
+00:01:08,920 --> 00:01:12,149
+expect it's not the same
+thing the result of this step is a
+
+50
+00:01:12,149 --> 00:01:12,159
+thing the result of this step is a
+ 
+
+51
+00:01:12,159 --> 00:01:14,990
+thing the result of this step is a
+description of the situation that can be
+
+52
+00:01:14,990 --> 00:01:15,000
+description of the situation that can be
+ 
+
+53
+00:01:15,000 --> 00:01:17,910
+description of the situation that can be
+replayed or at least reviewed by
+
+54
+00:01:17,910 --> 00:01:17,920
+replayed or at least reviewed by
+ 
+
+55
+00:01:17,920 --> 00:01:19,630
+replayed or at least reviewed by
+somebody
+
+56
+00:01:19,630 --> 00:01:19,640
+somebody
+ 
+
+57
+00:01:19,640 --> 00:01:23,310
+somebody
+else and a test you can do or an
+
+58
+00:01:23,310 --> 00:01:23,320
+else and a test you can do or an
+ 
+
+59
+00:01:23,320 --> 00:01:25,190
+else and a test you can do or an
+exercise you can do is write something
+
+60
+00:01:25,190 --> 00:01:25,200
+exercise you can do is write something
+ 
+
+61
+00:01:25,200 --> 00:01:26,710
+exercise you can do is write something
+down and then give it to somebody else
+
+62
+00:01:26,710 --> 00:01:26,720
+down and then give it to somebody else
+ 
+
+63
+00:01:26,720 --> 00:01:28,830
+down and then give it to somebody else
+to see if they actually can understand
+
+64
+00:01:28,830 --> 00:01:28,840
+to see if they actually can understand
+ 
+
+65
+00:01:28,840 --> 00:01:30,990
+to see if they actually can understand
+it and can move to the next
+
+66
+00:01:30,990 --> 00:01:31,000
+it and can move to the next
+ 
+
+67
+00:01:31,000 --> 00:01:34,190
+it and can move to the next
+step you want to record all of these
+
+68
+00:01:34,190 --> 00:01:34,200
+step you want to record all of these
+ 
+
+69
+00:01:34,200 --> 00:01:36,990
+step you want to record all of these
+steps in what I call your Oda log this
+
+70
+00:01:36,990 --> 00:01:37,000
+steps in what I call your Oda log this
+ 
+
+71
+00:01:37,000 --> 00:01:39,789
+steps in what I call your Oda log this
+is your bread Chum Trail you
+
+72
+00:01:39,789 --> 00:01:39,799
+is your bread Chum Trail you
+ 
+
+73
+00:01:39,799 --> 00:01:43,069
+is your bread Chum Trail you
+meticulously log every action and every
+
+74
+00:01:43,069 --> 00:01:43,079
+meticulously log every action and every
+ 
+
+75
+00:01:43,079 --> 00:01:44,910
+meticulously log every action and every
+result as it
+
+76
+00:01:44,910 --> 00:01:44,920
+result as it
+ 
+
+77
+00:01:44,920 --> 00:01:48,270
+result as it
+happens maybe even before it happens you
+
+78
+00:01:48,270 --> 00:01:48,280
+happens maybe even before it happens you
+ 
+
+79
+00:01:48,280 --> 00:01:51,870
+happens maybe even before it happens you
+want to prefix those with a capital O in
+
+80
+00:01:51,870 --> 00:01:51,880
+want to prefix those with a capital O in
+ 
+
+81
+00:01:51,880 --> 00:01:53,270
+want to prefix those with a capital O in
+the text
+
+82
+00:01:53,270 --> 00:01:53,280
+the text
+ 
+
+83
+00:01:53,280 --> 00:01:56,389
+the text
+file and you want to copy and paste and
+
+84
+00:01:56,389 --> 00:01:56,399
+file and you want to copy and paste and
+ 
+
+85
+00:01:56,399 --> 00:01:58,990
+file and you want to copy and paste and
+and Link whatever it is that you observe
+
+86
+00:01:58,990 --> 00:01:59,000
+and Link whatever it is that you observe
+ 
+
+87
+00:01:59,000 --> 00:02:01,469
+and Link whatever it is that you observe
+from uh the systems that you're working
+
+88
+00:02:01,469 --> 00:02:01,479
+from uh the systems that you're working
+ 
+
+89
+00:02:01,479 --> 00:02:05,670
+from uh the systems that you're working
+with at the beginning of the log at the
+
+90
+00:02:05,670 --> 00:02:05,680
+with at the beginning of the log at the
+ 
+
+91
+00:02:05,680 --> 00:02:08,869
+with at the beginning of the log at the
+start you will title your problem you
+
+92
+00:02:08,869 --> 00:02:08,879
+start you will title your problem you
+ 
+
+93
+00:02:08,879 --> 00:02:11,029
+start you will title your problem you
+also explain your objective what it is
+
+94
+00:02:11,029 --> 00:02:11,039
+also explain your objective what it is
+ 
+
+95
+00:02:11,039 --> 00:02:12,670
+also explain your objective what it is
+that you're trying to reach what is your
+
+96
+00:02:12,670 --> 00:02:12,680
+that you're trying to reach what is your
+ 
+
+97
+00:02:12,680 --> 00:02:16,270
+that you're trying to reach what is your
+definition of done so to say your first
+
+98
+00:02:16,270 --> 00:02:16,280
+definition of done so to say your first
+ 
+
+99
+00:02:16,280 --> 00:02:19,869
+definition of done so to say your first
+author name and starting date of this
+
+100
+00:02:19,869 --> 00:02:19,879
+author name and starting date of this
+ 
+
+101
+00:02:19,879 --> 00:02:23,509
+author name and starting date of this
+process you also want to have a section
+
+102
+00:02:23,509 --> 00:02:23,519
+process you also want to have a section
+ 
+
+103
+00:02:23,519 --> 00:02:26,070
+process you also want to have a section
+A tldr that you will update with the
+
+104
+00:02:26,070 --> 00:02:26,080
+A tldr that you will update with the
+ 
+
+105
+00:02:26,080 --> 00:02:28,190
+A tldr that you will update with the
+progress um whenever you take a break
+
+106
+00:02:28,190 --> 00:02:28,200
+progress um whenever you take a break
+ 
+
+107
+00:02:28,200 --> 00:02:30,830
+progress um whenever you take a break
+I'll talk about that in a moment
+
+108
+00:02:30,830 --> 00:02:30,840
+I'll talk about that in a moment
+ 
+
+109
+00:02:30,840 --> 00:02:33,750
+I'll talk about that in a moment
+it is really convenient to turn this to
+
+110
+00:02:33,750 --> 00:02:33,760
+it is really convenient to turn this to
+ 
+
+111
+00:02:33,760 --> 00:02:36,710
+it is really convenient to turn this to
+have this on a shared file like Ms teams
+
+112
+00:02:36,710 --> 00:02:36,720
+have this on a shared file like Ms teams
+ 
+
+113
+00:02:36,720 --> 00:02:40,470
+have this on a shared file like Ms teams
+or Google drive or uh whatever it is
+
+114
+00:02:40,470 --> 00:02:40,480
+or Google drive or uh whatever it is
+ 
+
+115
+00:02:40,480 --> 00:02:43,030
+or Google drive or uh whatever it is
+that works for you you really want
+
+116
+00:02:43,030 --> 00:02:43,040
+that works for you you really want
+ 
+
+117
+00:02:43,040 --> 00:02:46,990
+that works for you you really want
+somebody else um to uh to give them a
+
+118
+00:02:46,990 --> 00:02:47,000
+somebody else um to uh to give them a
+ 
+
+119
+00:02:47,000 --> 00:02:49,630
+somebody else um to uh to give them a
+chance to help you that's what being a
+
+120
+00:02:49,630 --> 00:02:49,640
+chance to help you that's what being a
+ 
+
+121
+00:02:49,640 --> 00:02:51,750
+chance to help you that's what being a
+professional is all
+
+122
+00:02:51,750 --> 00:02:51,760
+professional is all
+ 
+
+123
+00:02:51,760 --> 00:02:54,869
+professional is all
+about the next step is hypothesize or in
+
+124
+00:02:54,869 --> 00:02:54,879
+about the next step is hypothesize or in
+ 
+
+125
+00:02:54,879 --> 00:02:56,229
+about the next step is hypothesize or in
+Dutch
+
+126
+00:02:56,229 --> 00:02:56,239
+Dutch
+ 
+
+127
+00:02:56,239 --> 00:02:58,949
+Dutch
+foring you want to research the possible
+
+128
+00:02:58,949 --> 00:02:58,959
+foring you want to research the possible
+ 
+
+129
+00:02:58,959 --> 00:03:01,710
+foring you want to research the possible
+causes of the observation what caused
+
+130
+00:03:01,710 --> 00:03:01,720
+causes of the observation what caused
+ 
+
+131
+00:03:01,720 --> 00:03:04,670
+causes of the observation what caused
+what you see an example could be uh
+
+132
+00:03:04,670 --> 00:03:04,680
+what you see an example could be uh
+ 
+
+133
+00:03:04,680 --> 00:03:06,869
+what you see an example could be uh
+based on your own model of how it should
+
+134
+00:03:06,869 --> 00:03:06,879
+based on your own model of how it should
+ 
+
+135
+00:03:06,879 --> 00:03:08,309
+based on your own model of how it should
+work and I'll talk about that in the
+
+136
+00:03:08,309 --> 00:03:08,319
+work and I'll talk about that in the
+ 
+
+137
+00:03:08,319 --> 00:03:10,550
+work and I'll talk about that in the
+next slide you could also Google or
+
+138
+00:03:10,550 --> 00:03:10,560
+next slide you could also Google or
+ 
+
+139
+00:03:10,560 --> 00:03:12,710
+next slide you could also Google or
+stack Overflow or an error message if
+
+140
+00:03:12,710 --> 00:03:12,720
+stack Overflow or an error message if
+ 
+
+141
+00:03:12,720 --> 00:03:15,350
+stack Overflow or an error message if
+you're completely cluess like everybody
+
+142
+00:03:15,350 --> 00:03:15,360
+you're completely cluess like everybody
+ 
+
+143
+00:03:15,360 --> 00:03:18,270
+you're completely cluess like everybody
+does you can refer back to your own
+
+144
+00:03:18,270 --> 00:03:18,280
+does you can refer back to your own
+ 
+
+145
+00:03:18,280 --> 00:03:20,430
+does you can refer back to your own
+earlier Oda LS that have a similar
+
+146
+00:03:20,430 --> 00:03:20,440
+earlier Oda LS that have a similar
+ 
+
+147
+00:03:20,440 --> 00:03:23,750
+earlier Oda LS that have a similar
+problem you can ask somebody but in any
+
+148
+00:03:23,750 --> 00:03:23,760
+problem you can ask somebody but in any
+ 
+
+149
+00:03:23,760 --> 00:03:25,550
+problem you can ask somebody but in any
+case you want to document your Search
+
+150
+00:03:25,550 --> 00:03:25,560
+case you want to document your Search
+ 
+
+151
+00:03:25,560 --> 00:03:29,190
+case you want to document your Search
+keywords and possibly also the Google or
+
+152
+00:03:29,190 --> 00:03:29,200
+keywords and possibly also the Google or
+ 
+
+153
+00:03:29,200 --> 00:03:32,070
+keywords and possibly also the Google or
+stack over flow links that look the most
+
+154
+00:03:32,070 --> 00:03:32,080
+stack over flow links that look the most
+ 
+
+155
+00:03:32,080 --> 00:03:35,110
+stack over flow links that look the most
+promising the result of this is a
+
+156
+00:03:35,110 --> 00:03:35,120
+promising the result of this is a
+ 
+
+157
+00:03:35,120 --> 00:03:38,350
+promising the result of this is a
+credible idea a believable idea of what
+
+158
+00:03:38,350 --> 00:03:38,360
+credible idea a believable idea of what
+ 
+
+159
+00:03:38,360 --> 00:03:41,110
+credible idea a believable idea of what
+might actually cause that observation
+
+160
+00:03:41,110 --> 00:03:41,120
+might actually cause that observation
+ 
+
+161
+00:03:41,120 --> 00:03:42,550
+might actually cause that observation
+and again somebody else should be able
+
+162
+00:03:42,550 --> 00:03:42,560
+and again somebody else should be able
+ 
+
+163
+00:03:42,560 --> 00:03:44,789
+and again somebody else should be able
+to understand that
+
+164
+00:03:44,789 --> 00:03:44,799
+to understand that
+ 
+
+165
+00:03:44,799 --> 00:03:47,309
+to understand that
+reasoning and more than one idea is
+
+166
+00:03:47,309 --> 00:03:47,319
+reasoning and more than one idea is
+ 
+
+167
+00:03:47,319 --> 00:03:51,030
+reasoning and more than one idea is
+actually better now hypothesizing might
+
+168
+00:03:51,030 --> 00:03:51,040
+actually better now hypothesizing might
+ 
+
+169
+00:03:51,040 --> 00:03:54,390
+actually better now hypothesizing might
+involve doing additional experiments
+
+170
+00:03:54,390 --> 00:03:54,400
+involve doing additional experiments
+ 
+
+171
+00:03:54,400 --> 00:03:56,789
+involve doing additional experiments
+that may not solve the problem but that
+
+172
+00:03:56,789 --> 00:03:56,799
+that may not solve the problem but that
+ 
+
+173
+00:03:56,799 --> 00:03:59,710
+that may not solve the problem but that
+will give us new observations as input
+
+174
+00:03:59,710 --> 00:03:59,720
+will give us new observations as input
+ 
+
+175
+00:03:59,720 --> 00:04:01,550
+will give us new observations as input
+put to the whole
+
+176
+00:04:01,550 --> 00:04:01,560
+put to the whole
+ 
+
+177
+00:04:01,560 --> 00:04:05,110
+put to the whole
+story let's have a look at how we can
+
+178
+00:04:05,110 --> 00:04:05,120
+story let's have a look at how we can
+ 
+
+179
+00:04:05,120 --> 00:04:08,350
+story let's have a look at how we can
+create a hypothesis that are based on
+
+180
+00:04:08,350 --> 00:04:08,360
+create a hypothesis that are based on
+ 
+
+181
+00:04:08,360 --> 00:04:10,670
+create a hypothesis that are based on
+how we think it should work so on the
+
+182
+00:04:10,670 --> 00:04:10,680
+how we think it should work so on the
+ 
+
+183
+00:04:10,680 --> 00:04:12,229
+how we think it should work so on the
+top right again we're not connected to
+
+184
+00:04:12,229 --> 00:04:12,239
+top right again we're not connected to
+ 
+
+185
+00:04:12,239 --> 00:04:15,149
+top right again we're not connected to
+the internet and our mental model is
+
+186
+00:04:15,149 --> 00:04:15,159
+the internet and our mental model is
+ 
+
+187
+00:04:15,159 --> 00:04:16,830
+the internet and our mental model is
+something like okay we're not connected
+
+188
+00:04:16,830 --> 00:04:16,840
+something like okay we're not connected
+ 
+
+189
+00:04:16,840 --> 00:04:18,469
+something like okay we're not connected
+my phone is not is connected to the
+
+190
+00:04:18,469 --> 00:04:18,479
+my phone is not is connected to the
+ 
+
+191
+00:04:18,479 --> 00:04:20,749
+my phone is not is connected to the
+Wi-Fi the Wi-Fi is connected to the home
+
+192
+00:04:20,749 --> 00:04:20,759
+Wi-Fi the Wi-Fi is connected to the home
+ 
+
+193
+00:04:20,759 --> 00:04:22,069
+Wi-Fi the Wi-Fi is connected to the home
+router the home router is connected to
+
+194
+00:04:22,069 --> 00:04:22,079
+router the home router is connected to
+ 
+
+195
+00:04:22,079 --> 00:04:22,670
+router the home router is connected to
+the
+
+196
+00:04:22,670 --> 00:04:22,680
+the
+ 
+
+197
+00:04:22,680 --> 00:04:27,390
+the
+internet each of these things could be
+
+198
+00:04:27,390 --> 00:04:27,400
+internet each of these things could be
+ 
+
+199
+00:04:27,400 --> 00:04:30,150
+internet each of these things could be
+broken so those are then three
+
+200
+00:04:30,150 --> 00:04:30,160
+broken so those are then three
+ 
+
+201
+00:04:30,160 --> 00:04:32,830
+broken so those are then three
+hypothesis my phone is not connected
+
+202
+00:04:32,830 --> 00:04:32,840
+hypothesis my phone is not connected
+ 
+
+203
+00:04:32,840 --> 00:04:36,310
+hypothesis my phone is not connected
+next question how do you test for that
+
+204
+00:04:36,310 --> 00:04:36,320
+next question how do you test for that
+ 
+
+205
+00:04:36,320 --> 00:04:39,070
+next question how do you test for that
+uh that will be a diagnostic or a
+
+206
+00:04:39,070 --> 00:04:39,080
+uh that will be a diagnostic or a
+ 
+
+207
+00:04:39,080 --> 00:04:40,510
+uh that will be a diagnostic or a
+setting on your phone you have a look at
+
+208
+00:04:40,510 --> 00:04:40,520
+setting on your phone you have a look at
+ 
+
+209
+00:04:40,520 --> 00:04:42,830
+setting on your phone you have a look at
+your phone it does the phone think it is
+
+210
+00:04:42,830 --> 00:04:42,840
+your phone it does the phone think it is
+ 
+
+211
+00:04:42,840 --> 00:04:45,670
+your phone it does the phone think it is
+connected and you can make up your um
+
+212
+00:04:45,670 --> 00:04:45,680
+connected and you can make up your um
+ 
+
+213
+00:04:45,680 --> 00:04:48,950
+connected and you can make up your um
+own approaches to testing any of the
+
+214
+00:04:48,950 --> 00:04:48,960
+own approaches to testing any of the
+ 
+
+215
+00:04:48,960 --> 00:04:50,230
+own approaches to testing any of the
+other
+
+216
+00:04:50,230 --> 00:04:50,240
+other
+ 
+
+217
+00:04:50,240 --> 00:04:53,670
+other
+hypothesis let's get into an example uh
+
+218
+00:04:53,670 --> 00:04:53,680
+hypothesis let's get into an example uh
+ 
+
+219
+00:04:53,680 --> 00:04:55,670
+hypothesis let's get into an example uh
+different example the Linux uh we're
+
+220
+00:04:55,670 --> 00:04:55,680
+different example the Linux uh we're
+ 
+
+221
+00:04:55,680 --> 00:04:57,469
+different example the Linux uh we're
+typing more read me and we're getting
+
+222
+00:04:57,469 --> 00:04:57,479
+typing more read me and we're getting
+ 
+
+223
+00:04:57,479 --> 00:05:00,430
+typing more read me and we're getting
+another message permission denied
+
+224
+00:05:00,430 --> 00:05:00,440
+another message permission denied
+ 
+
+225
+00:05:00,440 --> 00:05:02,510
+another message permission denied
+now that's an observation right it's
+
+226
+00:05:02,510 --> 00:05:02,520
+now that's an observation right it's
+ 
+
+227
+00:05:02,520 --> 00:05:05,029
+now that's an observation right it's
+very likely not what we want to see so
+
+228
+00:05:05,029 --> 00:05:05,039
+very likely not what we want to see so
+ 
+
+229
+00:05:05,039 --> 00:05:07,430
+very likely not what we want to see so
+we can hypothesize what's going on here
+
+230
+00:05:07,430 --> 00:05:07,440
+we can hypothesize what's going on here
+ 
+
+231
+00:05:07,440 --> 00:05:10,270
+we can hypothesize what's going on here
+what could possibly be wrong and we can
+
+232
+00:05:10,270 --> 00:05:10,280
+what could possibly be wrong and we can
+ 
+
+233
+00:05:10,280 --> 00:05:12,189
+what could possibly be wrong and we can
+think about what will give us a little
+
+234
+00:05:12,189 --> 00:05:12,199
+think about what will give us a little
+ 
+
+235
+00:05:12,199 --> 00:05:15,110
+think about what will give us a little
+bit more information on that uh
+
+236
+00:05:15,110 --> 00:05:15,120
+bit more information on that uh
+ 
+
+237
+00:05:15,120 --> 00:05:17,670
+bit more information on that uh
+situation on that observation I'll get
+
+238
+00:05:17,670 --> 00:05:17,680
+situation on that observation I'll get
+ 
+
+239
+00:05:17,680 --> 00:05:20,150
+situation on that observation I'll get
+back to this example in a
+
+240
+00:05:20,150 --> 00:05:20,160
+back to this example in a
+ 
+
+241
+00:05:20,160 --> 00:05:23,870
+back to this example in a
+moment step three we decide on a couple
+
+242
+00:05:23,870 --> 00:05:23,880
+moment step three we decide on a couple
+ 
+
+243
+00:05:23,880 --> 00:05:27,830
+moment step three we decide on a couple
+of courses of action write down the best
+
+244
+00:05:27,830 --> 00:05:27,840
+of courses of action write down the best
+ 
+
+245
+00:05:27,840 --> 00:05:30,110
+of courses of action write down the best
+actions that you can think of in the
+
+246
+00:05:30,110 --> 00:05:30,120
+actions that you can think of in the
+ 
+
+247
+00:05:30,120 --> 00:05:34,230
+actions that you can think of in the
+your Odo log and before you actually do
+
+248
+00:05:34,230 --> 00:05:34,240
+your Odo log and before you actually do
+ 
+
+249
+00:05:34,240 --> 00:05:38,830
+your Odo log and before you actually do
+them good actions are hypothesis driven
+
+250
+00:05:38,830 --> 00:05:38,840
+them good actions are hypothesis driven
+ 
+
+251
+00:05:38,840 --> 00:05:42,990
+them good actions are hypothesis driven
+they are um easy to execute um they have
+
+252
+00:05:42,990 --> 00:05:43,000
+they are um easy to execute um they have
+ 
+
+253
+00:05:43,000 --> 00:05:43,830
+they are um easy to execute um they have
+quick
+
+254
+00:05:43,830 --> 00:05:43,840
+quick
+ 
+
+255
+00:05:43,840 --> 00:05:46,029
+quick
+turnaround uh they are
+
+256
+00:05:46,029 --> 00:05:46,039
+turnaround uh they are
+ 
+
+257
+00:05:46,039 --> 00:05:48,230
+turnaround uh they are
+informative and most of all they are
+
+258
+00:05:48,230 --> 00:05:48,240
+informative and most of all they are
+ 
+
+259
+00:05:48,240 --> 00:05:49,629
+informative and most of all they are
+potentially
+
+260
+00:05:49,629 --> 00:05:49,639
+potentially
+ 
+
+261
+00:05:49,639 --> 00:05:52,230
+potentially
+successful now sometimes or most of the
+
+262
+00:05:52,230 --> 00:05:52,240
+successful now sometimes or most of the
+ 
+
+263
+00:05:52,240 --> 00:05:54,990
+successful now sometimes or most of the
+times actually this involves a trade-off
+
+264
+00:05:54,990 --> 00:05:55,000
+times actually this involves a trade-off
+ 
+
+265
+00:05:55,000 --> 00:05:58,029
+times actually this involves a trade-off
+because things that are easy to execute
+
+266
+00:05:58,029 --> 00:05:58,039
+because things that are easy to execute
+ 
+
+267
+00:05:58,039 --> 00:05:59,790
+because things that are easy to execute
+don't necessarily give us a lot of
+
+268
+00:05:59,790 --> 00:05:59,800
+don't necessarily give us a lot of
+ 
+
+269
+00:05:59,800 --> 00:06:02,590
+don't necessarily give us a lot of
+information and things that are really
+
+270
+00:06:02,590 --> 00:06:02,600
+information and things that are really
+ 
+
+271
+00:06:02,600 --> 00:06:05,309
+information and things that are really
+informative could take a long time to do
+
+272
+00:06:05,309 --> 00:06:05,319
+informative could take a long time to do
+ 
+
+273
+00:06:05,319 --> 00:06:09,230
+informative could take a long time to do
+so this is where the art still comes in
+
+274
+00:06:09,230 --> 00:06:09,240
+so this is where the art still comes in
+ 
+
+275
+00:06:09,240 --> 00:06:12,950
+so this is where the art still comes in
+the result of this step is a couple of
+
+276
+00:06:12,950 --> 00:06:12,960
+the result of this step is a couple of
+ 
+
+277
+00:06:12,960 --> 00:06:15,870
+the result of this step is a couple of
+these actions Again replayable by
+
+278
+00:06:15,870 --> 00:06:15,880
+these actions Again replayable by
+ 
+
+279
+00:06:15,880 --> 00:06:18,150
+these actions Again replayable by
+somebody else somebody else could
+
+280
+00:06:18,150 --> 00:06:18,160
+somebody else somebody else could
+ 
+
+281
+00:06:18,160 --> 00:06:21,670
+somebody else somebody else could
+actually do them and if we're into a
+
+282
+00:06:21,670 --> 00:06:21,680
+actually do them and if we're into a
+ 
+
+283
+00:06:21,680 --> 00:06:23,670
+actually do them and if we're into a
+really large scale troubleshooting
+
+284
+00:06:23,670 --> 00:06:23,680
+really large scale troubleshooting
+ 
+
+285
+00:06:23,680 --> 00:06:27,110
+really large scale troubleshooting
+activity we might actually parcel these
+
+286
+00:06:27,110 --> 00:06:27,120
+activity we might actually parcel these
+ 
+
+287
+00:06:27,120 --> 00:06:29,670
+activity we might actually parcel these
+actions out to different teams to to
+
+288
+00:06:29,670 --> 00:06:29,680
+actions out to different teams to to
+ 
+
+289
+00:06:29,680 --> 00:06:30,990
+actions out to different teams to to
+figure
+
+290
+00:06:30,990 --> 00:06:31,000
+figure
+ 
+
+291
+00:06:31,000 --> 00:06:34,710
+figure
+out in summary that course of action
+
+292
+00:06:34,710 --> 00:06:34,720
+out in summary that course of action
+ 
+
+293
+00:06:34,720 --> 00:06:36,110
+out in summary that course of action
+every course of action should either
+
+294
+00:06:36,110 --> 00:06:36,120
+every course of action should either
+ 
+
+295
+00:06:36,120 --> 00:06:38,070
+every course of action should either
+solve the problem or give us more
+
+296
+00:06:38,070 --> 00:06:38,080
+solve the problem or give us more
+ 
+
+297
+00:06:38,080 --> 00:06:39,790
+solve the problem or give us more
+relevant
+
+298
+00:06:39,790 --> 00:06:39,800
+relevant
+ 
+
+299
+00:06:39,800 --> 00:06:43,749
+relevant
+information step four the final one act
+
+300
+00:06:43,749 --> 00:06:43,759
+information step four the final one act
+ 
+
+301
+00:06:43,759 --> 00:06:44,909
+information step four the final one act
+do and
+
+302
+00:06:44,909 --> 00:06:44,919
+do and
+ 
+
+303
+00:06:44,919 --> 00:06:47,390
+do and
+Dutch we take our best shot and we
+
+304
+00:06:47,390 --> 00:06:47,400
+Dutch we take our best shot and we
+ 
+
+305
+00:06:47,400 --> 00:06:50,029
+Dutch we take our best shot and we
+document it we make it traceable and
+
+306
+00:06:50,029 --> 00:06:50,039
+document it we make it traceable and
+ 
+
+307
+00:06:50,039 --> 00:06:52,990
+document it we make it traceable and
+replayable for example in a software
+
+308
+00:06:52,990 --> 00:06:53,000
+replayable for example in a software
+ 
+
+309
+00:06:53,000 --> 00:06:55,070
+replayable for example in a software
+development environment or maybe in a
+
+310
+00:06:55,070 --> 00:06:55,080
+development environment or maybe in a
+ 
+
+311
+00:06:55,080 --> 00:06:56,790
+development environment or maybe in a
+gith UPS environment we record a
+
+312
+00:06:56,790 --> 00:06:56,800
+gith UPS environment we record a
+ 
+
+313
+00:06:56,800 --> 00:06:59,469
+gith UPS environment we record a
+specific git commit ID so that we know
+
+314
+00:06:59,469 --> 00:06:59,479
+specific git commit ID so that we know
+ 
+
+315
+00:06:59,479 --> 00:07:01,990
+specific git commit ID so that we know
+what we did so we can play it back we
+
+316
+00:07:01,990 --> 00:07:02,000
+what we did so we can play it back we
+ 
+
+317
+00:07:02,000 --> 00:07:03,589
+what we did so we can play it back we
+can we figure that out that's what
+
+318
+00:07:03,589 --> 00:07:03,599
+can we figure that out that's what
+ 
+
+319
+00:07:03,599 --> 00:07:06,350
+can we figure that out that's what
+version control is about you also want
+
+320
+00:07:06,350 --> 00:07:06,360
+version control is about you also want
+ 
+
+321
+00:07:06,360 --> 00:07:08,790
+version control is about you also want
+to record the results of the step before
+
+322
+00:07:08,790 --> 00:07:08,800
+to record the results of the step before
+ 
+
+323
+00:07:08,800 --> 00:07:12,469
+to record the results of the step before
+you proceed um move into the loop again
+
+324
+00:07:12,469 --> 00:07:12,479
+you proceed um move into the loop again
+ 
+
+325
+00:07:12,479 --> 00:07:15,350
+you proceed um move into the loop again
+the result of this is an executed
+
+326
+00:07:15,350 --> 00:07:15,360
+the result of this is an executed
+ 
+
+327
+00:07:15,360 --> 00:07:16,589
+the result of this is an executed
+intervention something that you've
+
+328
+00:07:16,589 --> 00:07:16,599
+intervention something that you've
+ 
+
+329
+00:07:16,599 --> 00:07:20,629
+intervention something that you've
+actually done and that leads us to a new
+
+330
+00:07:20,629 --> 00:07:20,639
+actually done and that leads us to a new
+ 
+
+331
+00:07:20,639 --> 00:07:22,909
+actually done and that leads us to a new
+observation and as I said you include
+
+332
+00:07:22,909 --> 00:07:22,919
+observation and as I said you include
+ 
+
+333
+00:07:22,919 --> 00:07:24,909
+observation and as I said you include
+the details that a competent person
+
+334
+00:07:24,909 --> 00:07:24,919
+the details that a competent person
+ 
+
+335
+00:07:24,919 --> 00:07:27,270
+the details that a competent person
+needs to replay
+
+336
+00:07:27,270 --> 00:07:27,280
+needs to replay
+ 
+
+337
+00:07:27,280 --> 00:07:31,270
+needs to replay
+this we want to use use uh uh the OD
+
+338
+00:07:31,270 --> 00:07:31,280
+this we want to use use uh uh the OD
+ 
+
+339
+00:07:31,280 --> 00:07:32,710
+this we want to use use uh uh the OD
+loog in every
+
+340
+00:07:32,710 --> 00:07:32,720
+loog in every
+ 
+
+341
+00:07:32,720 --> 00:07:35,510
+loog in every
+step if there's a URL you copy it in
+
+342
+00:07:35,510 --> 00:07:35,520
+step if there's a URL you copy it in
+ 
+
+343
+00:07:35,520 --> 00:07:37,230
+step if there's a URL you copy it in
+there if there's a screenshot that you
+
+344
+00:07:37,230 --> 00:07:37,240
+there if there's a screenshot that you
+ 
+
+345
+00:07:37,240 --> 00:07:39,909
+there if there's a screenshot that you
+can take that's relevant put it in there
+
+346
+00:07:39,909 --> 00:07:39,919
+can take that's relevant put it in there
+ 
+
+347
+00:07:39,919 --> 00:07:42,589
+can take that's relevant put it in there
+you want to copy paste command lines in
+
+348
+00:07:42,589 --> 00:07:42,599
+you want to copy paste command lines in
+ 
+
+349
+00:07:42,599 --> 00:07:44,990
+you want to copy paste command lines in
+fact my suggestion my habit as a matter
+
+350
+00:07:44,990 --> 00:07:45,000
+fact my suggestion my habit as a matter
+ 
+
+351
+00:07:45,000 --> 00:07:47,990
+fact my suggestion my habit as a matter
+of fact is to type the command line into
+
+352
+00:07:47,990 --> 00:07:48,000
+of fact is to type the command line into
+ 
+
+353
+00:07:48,000 --> 00:07:51,469
+of fact is to type the command line into
+my Oda log paste it into the system
+
+354
+00:07:51,469 --> 00:07:51,479
+my Oda log paste it into the system
+ 
+
+355
+00:07:51,479 --> 00:07:53,869
+my Oda log paste it into the system
+rather than the other way around that
+
+356
+00:07:53,869 --> 00:07:53,879
+rather than the other way around that
+ 
+
+357
+00:07:53,879 --> 00:07:56,189
+rather than the other way around that
+makes it more reproducible if it was
+
+358
+00:07:56,189 --> 00:07:56,199
+makes it more reproducible if it was
+ 
+
+359
+00:07:56,199 --> 00:07:58,710
+makes it more reproducible if it was
+wrong I just copy that thing again I
+
+360
+00:07:58,710 --> 00:07:58,720
+wrong I just copy that thing again I
+ 
+
+361
+00:07:58,720 --> 00:08:02,629
+wrong I just copy that thing again I
+copy that thing and fix it and and try
+
+362
+00:08:02,629 --> 00:08:02,639
+copy that thing and fix it and and try
+ 
+
+363
+00:08:02,639 --> 00:08:05,350
+copy that thing and fix it and and try
+again you also want to include any
+
+364
+00:08:05,350 --> 00:08:05,360
+again you also want to include any
+ 
+
+365
+00:08:05,360 --> 00:08:07,589
+again you also want to include any
+rabbit hole that you took for a couple
+
+366
+00:08:07,589 --> 00:08:07,599
+rabbit hole that you took for a couple
+ 
+
+367
+00:08:07,599 --> 00:08:08,309
+rabbit hole that you took for a couple
+of
+
+368
+00:08:08,309 --> 00:08:08,319
+of
+ 
+
+369
+00:08:08,319 --> 00:08:10,629
+of
+reasons uh it's a warning for somebody
+
+370
+00:08:10,629 --> 00:08:10,639
+reasons uh it's a warning for somebody
+ 
+
+371
+00:08:10,639 --> 00:08:12,710
+reasons uh it's a warning for somebody
+else kids don't try this at
+
+372
+00:08:12,710 --> 00:08:12,720
+else kids don't try this at
+ 
+
+373
+00:08:12,720 --> 00:08:15,390
+else kids don't try this at
+home but it might not be a rabbit hole
+
+374
+00:08:15,390 --> 00:08:15,400
+home but it might not be a rabbit hole
+ 
+
+375
+00:08:15,400 --> 00:08:16,990
+home but it might not be a rabbit hole
+after all or maybe when you have a
+
+376
+00:08:16,990 --> 00:08:17,000
+after all or maybe when you have a
+ 
+
+377
+00:08:17,000 --> 00:08:18,629
+after all or maybe when you have a
+slightly different approach there is
+
+378
+00:08:18,629 --> 00:08:18,639
+slightly different approach there is
+ 
+
+379
+00:08:18,639 --> 00:08:20,909
+slightly different approach there is
+some value in
+
+380
+00:08:20,909 --> 00:08:20,919
+some value in
+ 
+
+381
+00:08:20,919 --> 00:08:23,909
+some value in
+there you also want to proceed all the
+
+382
+00:08:23,909 --> 00:08:23,919
+there you also want to proceed all the
+ 
+
+383
+00:08:23,919 --> 00:08:26,309
+there you also want to proceed all the
+lines that you have with an O of an o or
+
+384
+00:08:26,309 --> 00:08:26,319
+lines that you have with an O of an o or
+ 
+
+385
+00:08:26,319 --> 00:08:29,270
+lines that you have with an O of an o or
+an H or a d or an A appro as appropriate
+
+386
+00:08:29,270 --> 00:08:29,280
+an H or a d or an A appro as appropriate
+ 
+
+387
+00:08:29,280 --> 00:08:30,390
+an H or a d or an A appro as appropriate
+to the
+
+388
+00:08:30,390 --> 00:08:30,400
+to the
+ 
+
+389
+00:08:30,400 --> 00:08:32,430
+to the
+situation you might also want to
+
+390
+00:08:32,430 --> 00:08:32,440
+situation you might also want to
+ 
+
+391
+00:08:32,440 --> 00:08:34,310
+situation you might also want to
+consider a different style or color for
+
+392
+00:08:34,310 --> 00:08:34,320
+consider a different style or color for
+ 
+
+393
+00:08:34,320 --> 00:08:36,430
+consider a different style or color for
+computer output uh to distinguish
+
+394
+00:08:36,430 --> 00:08:36,440
+computer output uh to distinguish
+ 
+
+395
+00:08:36,440 --> 00:08:39,230
+computer output uh to distinguish
+between actual observations and stuff
+
+396
+00:08:39,230 --> 00:08:39,240
+between actual observations and stuff
+ 
+
+397
+00:08:39,240 --> 00:08:42,389
+between actual observations and stuff
+that you've typed in from somewhere else
+
+398
+00:08:42,389 --> 00:08:42,399
+that you've typed in from somewhere else
+ 
+
+399
+00:08:42,399 --> 00:08:43,870
+that you've typed in from somewhere else
+you also want to name your documents in
+
+400
+00:08:43,870 --> 00:08:43,880
+you also want to name your documents in
+ 
+
+401
+00:08:43,880 --> 00:08:45,910
+you also want to name your documents in
+a consistent way so you can retrieve
+
+402
+00:08:45,910 --> 00:08:45,920
+a consistent way so you can retrieve
+ 
+
+403
+00:08:45,920 --> 00:08:48,750
+a consistent way so you can retrieve
+them later the log and the date and the
+
+404
+00:08:48,750 --> 00:08:48,760
+them later the log and the date and the
+ 
+
+405
+00:08:48,760 --> 00:08:51,790
+them later the log and the date and the
+topic are the most important
+
+406
+00:08:51,790 --> 00:08:51,800
+topic are the most important
+ 
+
+407
+00:08:51,800 --> 00:08:54,870
+topic are the most important
+things back to a small example our
+
+408
+00:08:54,870 --> 00:08:54,880
+things back to a small example our
+ 
+
+409
+00:08:54,880 --> 00:08:57,829
+things back to a small example our
+observation is permission denied now
+
+410
+00:08:57,829 --> 00:08:57,839
+observation is permission denied now
+ 
+
+411
+00:08:57,839 --> 00:09:00,310
+observation is permission denied now
+thinking this through as a Unix expert
+
+412
+00:09:00,310 --> 00:09:00,320
+thinking this through as a Unix expert
+ 
+
+413
+00:09:00,320 --> 00:09:02,430
+thinking this through as a Unix expert
+we might go like okay hypothesis one the
+
+414
+00:09:02,430 --> 00:09:02,440
+we might go like okay hypothesis one the
+ 
+
+415
+00:09:02,440 --> 00:09:05,069
+we might go like okay hypothesis one the
+file has the wrong permissions another
+
+416
+00:09:05,069 --> 00:09:05,079
+file has the wrong permissions another
+ 
+
+417
+00:09:05,079 --> 00:09:07,670
+file has the wrong permissions another
+hypothesis is we may not be the user
+
+418
+00:09:07,670 --> 00:09:07,680
+hypothesis is we may not be the user
+ 
+
+419
+00:09:07,680 --> 00:09:11,389
+hypothesis is we may not be the user
+that we think we are what is a course of
+
+420
+00:09:11,389 --> 00:09:11,399
+that we think we are what is a course of
+ 
+
+421
+00:09:11,399 --> 00:09:13,790
+that we think we are what is a course of
+action that checks the first hypothesis
+
+422
+00:09:13,790 --> 00:09:13,800
+action that checks the first hypothesis
+ 
+
+423
+00:09:13,800 --> 00:09:15,550
+action that checks the first hypothesis
+well uh that will be easy that would be
+
+424
+00:09:15,550 --> 00:09:15,560
+well uh that will be easy that would be
+ 
+
+425
+00:09:15,560 --> 00:09:17,550
+well uh that will be easy that would be
+LS minus L although there's probably a
+
+426
+00:09:17,550 --> 00:09:17,560
+LS minus L although there's probably a
+ 
+
+427
+00:09:17,560 --> 00:09:20,069
+LS minus L although there's probably a
+couple of other ways uh of doing
+
+428
+00:09:20,069 --> 00:09:20,079
+couple of other ways uh of doing
+ 
+
+429
+00:09:20,079 --> 00:09:24,430
+couple of other ways uh of doing
+this and then as a result uh we see that
+
+430
+00:09:24,430 --> 00:09:24,440
+this and then as a result uh we see that
+ 
+
+431
+00:09:24,440 --> 00:09:26,990
+this and then as a result uh we see that
+the file has permissions 0 0 0 which
+
+432
+00:09:26,990 --> 00:09:27,000
+the file has permissions 0 0 0 which
+ 
+
+433
+00:09:27,000 --> 00:09:29,590
+the file has permissions 0 0 0 which
+basically means that you can't do
+
+434
+00:09:29,590 --> 00:09:29,600
+basically means that you can't do
+ 
+
+435
+00:09:29,600 --> 00:09:32,990
+basically means that you can't do
+anything with it and that explains the
+
+436
+00:09:32,990 --> 00:09:33,000
+anything with it and that explains the
+ 
+
+437
+00:09:33,000 --> 00:09:35,190
+anything with it and that explains the
+observation we know how to fix this or
+
+438
+00:09:35,190 --> 00:09:35,200
+observation we know how to fix this or
+ 
+
+439
+00:09:35,200 --> 00:09:37,949
+observation we know how to fix this or
+we can derive ways of fixing this that's
+
+440
+00:09:37,949 --> 00:09:37,959
+we can derive ways of fixing this that's
+ 
+
+441
+00:09:37,959 --> 00:09:40,310
+we can derive ways of fixing this that's
+another uh iteration in the
+
+442
+00:09:40,310 --> 00:09:40,320
+another uh iteration in the
+ 
+
+443
+00:09:40,320 --> 00:09:43,590
+another uh iteration in the
+loop at every Oda log uh once we've made
+
+444
+00:09:43,590 --> 00:09:43,600
+loop at every Oda log uh once we've made
+ 
+
+445
+00:09:43,600 --> 00:09:46,069
+loop at every Oda log uh once we've made
+some progress we want to have a tldr
+
+446
+00:09:46,069 --> 00:09:46,079
+some progress we want to have a tldr
+ 
+
+447
+00:09:46,079 --> 00:09:48,350
+some progress we want to have a tldr
+paragraph at the top it summarizes the
+
+448
+00:09:48,350 --> 00:09:48,360
+paragraph at the top it summarizes the
+ 
+
+449
+00:09:48,360 --> 00:09:50,550
+paragraph at the top it summarizes the
+problem it summarizes the status of
+
+450
+00:09:50,550 --> 00:09:50,560
+problem it summarizes the status of
+ 
+
+451
+00:09:50,560 --> 00:09:53,430
+problem it summarizes the status of
+where we are and if there's a solution
+
+452
+00:09:53,430 --> 00:09:53,440
+where we are and if there's a solution
+ 
+
+453
+00:09:53,440 --> 00:09:56,710
+where we are and if there's a solution
+we give uh the the gist of it for
+
+454
+00:09:56,710 --> 00:09:56,720
+we give uh the the gist of it for
+ 
+
+455
+00:09:56,720 --> 00:09:58,829
+we give uh the the gist of it for
+anybody interested in more details
+
+456
+00:09:58,829 --> 00:09:58,839
+anybody interested in more details
+ 
+
+457
+00:09:58,839 --> 00:10:01,430
+anybody interested in more details
+they'll dive into the document and I
+
+458
+00:10:01,430 --> 00:10:01,440
+they'll dive into the document and I
+ 
+
+459
+00:10:01,440 --> 00:10:04,949
+they'll dive into the document and I
+tell you these documents can become
+
+460
+00:10:04,949 --> 00:10:04,959
+tell you these documents can become
+ 
+
+461
+00:10:04,959 --> 00:10:08,069
+tell you these documents can become
+long you also once you're done you have
+
+462
+00:10:08,069 --> 00:10:08,079
+long you also once you're done you have
+ 
+
+463
+00:10:08,079 --> 00:10:10,829
+long you also once you're done you have
+solved the problem or you decided it's a
+
+464
+00:10:10,829 --> 00:10:10,839
+solved the problem or you decided it's a
+ 
+
+465
+00:10:10,839 --> 00:10:13,110
+solved the problem or you decided it's a
+100% dead end you want to create a
+
+466
+00:10:13,110 --> 00:10:13,120
+100% dead end you want to create a
+ 
+
+467
+00:10:13,120 --> 00:10:14,990
+100% dead end you want to create a
+lesson learned out of that document you
+
+468
+00:10:14,990 --> 00:10:15,000
+lesson learned out of that document you
+ 
+
+469
+00:10:15,000 --> 00:10:17,470
+lesson learned out of that document you
+want to clean it up by doing two things
+
+470
+00:10:17,470 --> 00:10:17,480
+want to clean it up by doing two things
+ 
+
+471
+00:10:17,480 --> 00:10:19,910
+want to clean it up by doing two things
+one is to cross out any dead ends not
+
+472
+00:10:19,910 --> 00:10:19,920
+one is to cross out any dead ends not
+ 
+
+473
+00:10:19,920 --> 00:10:21,590
+one is to cross out any dead ends not
+don't delete them cross them out you
+
+474
+00:10:21,590 --> 00:10:21,600
+don't delete them cross them out you
+ 
+
+475
+00:10:21,600 --> 00:10:23,269
+don't delete them cross them out you
+want to show that you took the path and
+
+476
+00:10:23,269 --> 00:10:23,279
+want to show that you took the path and
+ 
+
+477
+00:10:23,279 --> 00:10:26,630
+want to show that you took the path and
+it actually didn't work that's valid and
+
+478
+00:10:26,630 --> 00:10:26,640
+it actually didn't work that's valid and
+ 
+
+479
+00:10:26,640 --> 00:10:28,470
+it actually didn't work that's valid and
+important information you also want to
+
+480
+00:10:28,470 --> 00:10:28,480
+important information you also want to
+ 
+
+481
+00:10:28,480 --> 00:10:30,030
+important information you also want to
+make it more self-contained because
+
+482
+00:10:30,030 --> 00:10:30,040
+make it more self-contained because
+ 
+
+483
+00:10:30,040 --> 00:10:32,110
+make it more self-contained because
+typically you forget to put in things
+
+484
+00:10:32,110 --> 00:10:32,120
+typically you forget to put in things
+ 
+
+485
+00:10:32,120 --> 00:10:34,670
+typically you forget to put in things
+that after a couple of weeks you go like
+
+486
+00:10:34,670 --> 00:10:34,680
+that after a couple of weeks you go like
+ 
+
+487
+00:10:34,680 --> 00:10:36,190
+that after a couple of weeks you go like
+what was that
+
+488
+00:10:36,190 --> 00:10:36,200
+what was that
+ 
+
+489
+00:10:36,200 --> 00:10:39,269
+what was that
+again so the big idea uh of the Oda
+
+490
+00:10:39,269 --> 00:10:39,279
+again so the big idea uh of the Oda
+ 
+
+491
+00:10:39,279 --> 00:10:41,990
+again so the big idea uh of the Oda
+method is uh by executing specific
+
+492
+00:10:41,990 --> 00:10:42,000
+method is uh by executing specific
+ 
+
+493
+00:10:42,000 --> 00:10:45,069
+method is uh by executing specific
+technical interventions we achieve
+
+494
+00:10:45,069 --> 00:10:45,079
+technical interventions we achieve
+ 
+
+495
+00:10:45,079 --> 00:10:46,829
+technical interventions we achieve
+desired and planned results and we do
+
+496
+00:10:46,829 --> 00:10:46,839
+desired and planned results and we do
+ 
+
+497
+00:10:46,839 --> 00:10:49,870
+desired and planned results and we do
+that by being conscious of what are our
+
+498
+00:10:49,870 --> 00:10:49,880
+that by being conscious of what are our
+ 
+
+499
+00:10:49,880 --> 00:10:52,990
+that by being conscious of what are our
+desired results what are our technical
+
+500
+00:10:52,990 --> 00:10:53,000
+desired results what are our technical
+ 
+
+501
+00:10:53,000 --> 00:10:56,430
+desired results what are our technical
+uh act options make them explicit be
+
+502
+00:10:56,430 --> 00:10:56,440
+uh act options make them explicit be
+ 
+
+503
+00:10:56,440 --> 00:10:58,470
+uh act options make them explicit be
+explicit about our planned actions and
+
+504
+00:10:58,470 --> 00:10:58,480
+explicit about our planned actions and
+ 
+
+505
+00:10:58,480 --> 00:11:00,910
+explicit about our planned actions and
+as a result bu we can achieve more
+
+506
+00:11:00,910 --> 00:11:00,920
+as a result bu we can achieve more
+ 
+
+507
+00:11:00,920 --> 00:11:03,550
+as a result bu we can achieve more
+reliable performance as well as work
+
+508
+00:11:03,550 --> 00:11:03,560
+reliable performance as well as work
+ 
+
+509
+00:11:03,560 --> 00:11:06,069
+reliable performance as well as work
+with and teach other
+
+510
+00:11:06,069 --> 00:11:06,079
+with and teach other
+ 
+
+511
+00:11:06,079 --> 00:11:08,590
+with and teach other
+people I know this reflection takes
+
+512
+00:11:08,590 --> 00:11:08,600
+people I know this reflection takes
+ 
+
+513
+00:11:08,600 --> 00:11:11,910
+people I know this reflection takes
+practice uh being a
+
+514
+00:11:11,910 --> 00:11:11,920
+practice uh being a
+ 
+
+515
+00:11:11,920 --> 00:11:15,910
+practice uh being a
+professional is a process not a state of
+
+516
+00:11:15,910 --> 00:11:15,920
+professional is a process not a state of
+ 
+
+517
+00:11:15,920 --> 00:11:20,670
+professional is a process not a state of
+mind in summary the OD Loop starts with
+
+518
+00:11:20,670 --> 00:11:20,680
+mind in summary the OD Loop starts with
+ 
+
+519
+00:11:20,680 --> 00:11:23,509
+mind in summary the OD Loop starts with
+observe then we hypothesize what could
+
+520
+00:11:23,509 --> 00:11:23,519
+observe then we hypothesize what could
+ 
+
+521
+00:11:23,519 --> 00:11:26,150
+observe then we hypothesize what could
+cause that observation we decide what we
+
+522
+00:11:26,150 --> 00:11:26,160
+cause that observation we decide what we
+ 
+
+523
+00:11:26,160 --> 00:11:28,750
+cause that observation we decide what we
+want to do to change the situation or
+
+524
+00:11:28,750 --> 00:11:28,760
+want to do to change the situation or
+ 
+
+525
+00:11:28,760 --> 00:11:29,750
+want to do to change the situation or
+actually
+
+526
+00:11:29,750 --> 00:11:29,760
+actually
+ 
+
+527
+00:11:29,760 --> 00:11:31,110
+actually
+um execute that
+
+528
+00:11:31,110 --> 00:11:31,120
+um execute that
+ 
+
+529
+00:11:31,120 --> 00:11:33,470
+um execute that
+Intervention which will lead us through
+
+530
+00:11:33,470 --> 00:11:33,480
+Intervention which will lead us through
+ 
+
+531
+00:11:33,480 --> 00:11:36,190
+Intervention which will lead us through
+to new observations once we have an
+
+532
+00:11:36,190 --> 00:11:36,200
+to new observations once we have an
+ 
+
+533
+00:11:36,200 --> 00:11:38,269
+to new observations once we have an
+observation that we're happy with we can
+
+534
+00:11:38,269 --> 00:11:38,279
+observation that we're happy with we can
+ 
+
+535
+00:11:38,279 --> 00:11:39,990
+observation that we're happy with we can
+stop otherwise we'll go through the loop
+
+536
+00:11:39,990 --> 00:11:40,000
+stop otherwise we'll go through the loop
+ 
+
+537
+00:11:40,000 --> 00:11:42,590
+stop otherwise we'll go through the loop
+a couple of times and again practice
+
+538
+00:11:42,590 --> 00:11:42,600
+a couple of times and again practice
+ 
+
+539
+00:11:42,600 --> 00:11:45,590
+a couple of times and again practice
+makes perfect because you still derail
+
+540
+00:11:45,590 --> 00:11:45,600
+makes perfect because you still derail
+ 
+
+541
+00:11:45,600 --> 00:11:46,990
+makes perfect because you still derail
+every now and
+
+542
+00:11:46,990 --> 00:11:47,000
+every now and
+ 
+
+543
+00:11:47,000 --> 00:11:50,509
+every now and
+then I hope this was helpful um like And
+
+544
+00:11:50,509 --> 00:11:50,519
+then I hope this was helpful um like And
+ 
+
+545
+00:11:50,519 --> 00:11:53,509
+then I hope this was helpful um like And
+subscribe uh good luck with your
+
+546
+00:11:53,509 --> 00:11:53,519
+subscribe uh good luck with your
+ 
+
+547
+00:11:53,519 --> 00:11:58,639
+subscribe uh good luck with your
+troubleshooting and thanks for watching
+

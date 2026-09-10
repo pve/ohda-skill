@@ -1,12 +1,14 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.1.0
+version: 1.2.0
 ---
 
 # OHDA method
 
-Source: Peter van Eijk, "Professional IT troubleshooting, simplified" (Club Cloud Computing).
+Source: Peter van Eijk, "Introducing the OHDA method for professional IT troubleshooting"
+(Club Cloud Computing, 2024-01-25) — <https://www.youtube.com/watch?v=rQ5MpGWCiUw>,
+transcript in `references/source-transcript-2024-01-25.srt`.
 See `references/CHANGELOG.md` for what's changed between versions of this skill itself.
 
 ## Why
@@ -17,6 +19,12 @@ further." The OHDA loop and its worklog are what make a diagnosis session **repl
 somebody else** (a colleague, or you in two weeks) — every step must be understandable and
 re-doable by a reader who wasn't there.
 
+The big idea: by executing *specific* technical interventions you reach *desired and planned*
+results — so be explicit at each step about the desired result, the technical options, and
+the action you picked. That explicitness is what buys reliable performance and lets you hand
+the work to (or teach) someone else. Being a professional is a process, not a state of mind —
+the reflection takes practice and you'll still derail now and then.
+
 ## The loop
 
 Troubleshooting is a loop through four steps, repeated until the observation matches
@@ -25,19 +33,29 @@ deciding are written down.**
 
 1. **O — Observe.** What do you see that you don't expect, or expect that you don't see?
    Result: a description of the situation, concrete enough that someone else could reproduce
-   or at least review it. Copy/paste actual output — don't paraphrase.
+   or at least review it. Copy/paste actual output — don't paraphrase. **Test for "concrete
+   enough":** hand the write-up to someone who wasn't there — can they understand it and move
+   to the next step without asking you? If not, it's not observed yet.
 2. **H — Hypothesize.** Research possible causes. Sources: your own mental model of how the
    system *should* work (decompose it into parts — each part is a hypothesis that it's the
    broken one), search engines/error messages, earlier OHDA logs on a similar problem, asking
    someone. Document search terms. **Prefer 2-3 candidate hypotheses over one** — result must
-   be a credible, understandable-by-others idea of the cause.
+   be a credible, understandable-by-others idea of the cause. Hypothesizing may itself need
+   small experiments that don't solve anything but feed new observations back into the loop —
+   that's fine, log them as `O:` like any other.
 3. **D — Decide.** Before doing anything, write down the 2-3 best candidate actions. A good
    action is hypothesis-driven, easy to execute, quick-turnaround, informative, and plausibly
    successful — usually a trade-off between "easy" and "informative". Every candidate action
    should either solve the problem or produce more relevant information; if it does neither,
-   it's not worth the slot.
+   it's not worth the slot. At large scale, candidate actions written this explicitly can be
+   parcelled out to different people/teams to run in parallel.
 4. **A — Act.** Execute your best shot, and make it traceable/replayable (e.g. record the
-   exact command, a git commit id). Record the result *before* moving on.
+   exact command, a git commit id). Record the result *before* moving on. Every `A:` must
+   name the `D:` it executes and the objective it serves, so a reader never has to guess
+   which decision this action came from or what it's working toward. **Before acting, ask
+   whether this action reasonably needs a human in the loop** — anything destructive,
+   outward-facing, hard to reverse, or outside the mandate you were given — and if so, stop
+   and get explicit confirmation instead of executing.
 
 **Every `A:` is immediately followed by an `O:` that closes the loop against the hypothesis
 it tested** — not just "here's the output", but an explicit verdict: what you now see, what
@@ -51,15 +69,19 @@ diagnoses take multiple passes.
 
 ## The worklog
 
-One growing text file per topic, append-only in spirit (dead-ends get struck through later,
-never deleted). Every line is prefixed `O:`, `H:`, `D:`, or `A:` so the loop-step is visible
-at a glance; consider a distinct style/color for raw computer output vs. your own typed notes.
+One growing Markdown file per topic, append-only in spirit (dead-ends get struck through
+later, never deleted). Each step is its own paragraph starting `O:`, `H:`, `D:`, or `A:`,
+with a **blank line before and after** so it renders as a separate paragraph — don't let
+consecutive steps collapse into one block. Put raw computer output in a fenced code block
+under its step; keep your own typed notes as prose so the two are visually distinct.
 
 **Header, once, at the top:**
 - Title of the problem
 - Objective — what "done" looks like
 - Author, start date
-- A `TL;DR` section (empty until step "Closing out", below)
+- A `TL;DR` section — update it with the current status every time you pause or take a
+  break (so anyone picking it up, you included, gets the state without reading the whole
+  log); the final rewrite happens at "Closing out", below
 
 **Discipline while working:**
 - Log every action and result *as it happens* — before it happens, if you can (write the
@@ -111,15 +133,32 @@ On close:
 
 ## Worked example
 
+Objective: read `readme.txt`.
+
+O: `more readme.txt` fails.
+
 ```
-O:  % more readme.txt
-    more: cannot open readme.txt: Permission denied
-H:  file has the wrong permissions
-H:  we are not the user we think we are
-D:  check permissions, `ls -l`
-A:  % ls -l readme.txt
-    ----------  1 peter  wheel  48 Jan 25 12:32 readme.txt
-O:  permissions are 000, expected 644 → H "wrong permissions" accepted
+% more readme.txt
+more: cannot open readme.txt: Permission denied
 ```
-(Verdict is explicit in the closing `O:` — no need to re-read the `A:` output to know the
-loop resolved.)
+
+H: the file has the wrong permissions.
+
+H: we are not the user we think we are.
+
+D: candidate actions — (1) `ls -l readme.txt` to check permissions (easy, informative, tests
+H1); (2) `id` to check the current user (tests H2). Start with (1).
+
+A: executing D(1) toward the objective — read-only, no human-in-the-loop needed.
+
+```
+% ls -l readme.txt
+----------  1 peter  wheel  48 Jan 25 12:32 readme.txt
+```
+
+O: permissions are `000`, expected `644` → H "wrong permissions" accepted; H "wrong user" not
+needed. Next iteration: decide how to fix (and `chmod` on someone else's file is where a
+human-in-the-loop check would kick in).
+
+Each step is its own blank-line-separated paragraph; the verdict lives in the closing `O:`,
+so no one has to re-read the `A:` output to know the loop resolved.
