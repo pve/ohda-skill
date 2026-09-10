@@ -40,9 +40,10 @@ deciding are written down.**
    system *should* work (decompose it into parts — each part is a hypothesis that it's the
    broken one), search engines/error messages, earlier OHDA logs on a similar problem, asking
    someone. Document search terms. **Prefer 2-3 candidate hypotheses over one** — result must
-   be a credible, understandable-by-others idea of the cause. Hypothesizing may itself need
-   small experiments that don't solve anything but feed new observations back into the loop —
-   that's fine, log them as `O:` like any other.
+   be a credible, understandable-by-others idea of the cause. **Number them `H1`, `H2`, …**
+   so later `D:` and `O:` lines can refer to a hypothesis unambiguously. Hypothesizing may
+   itself need small experiments that don't solve anything but feed new observations back
+   into the loop — that's fine, log them as `O:` like any other.
 3. **D — Decide.** Before doing anything, write down the 2-3 best candidate actions. A good
    action is hypothesis-driven, easy to execute, quick-turnaround, informative, and plausibly
    successful — usually a trade-off between "easy" and "informative". Every candidate action
@@ -55,12 +56,13 @@ deciding are written down.**
    which decision this action came from or what it's working toward. **Before acting, ask
    whether this action reasonably needs a human in the loop** — anything destructive,
    outward-facing, hard to reverse, or outside the mandate you were given — and if so, stop
-   and get explicit confirmation instead of executing.
+   and get explicit confirmation instead of executing. A human-in-the-loop pause is also a
+   natural moment to update the `TL;DR` — whoever you hand to gets the state for free.
 
 **Every `A:` is immediately followed by an `O:` that closes the loop against the hypothesis
 it tested** — not just "here's the output", but an explicit verdict: what you now see, what
 you expected, and whether the hypothesis is accepted or rejected. E.g. `O: permissions are
-000, not 644 as expected → H "wrong permissions" accepted`. This is what makes the log
+000, not 644 as expected → H1 accepted`. This is what makes the log
 replayable reasoning rather than a bare transcript — a reader can follow *why* the loop moved
 on, not just *that* it did. That `O:` is also the seed observation for the next iteration.
 
@@ -79,9 +81,9 @@ under its step; keep your own typed notes as prose so the two are visually disti
 - Title of the problem
 - Objective — what "done" looks like
 - Author, start date
-- A `TL;DR` section — update it with the current status every time you pause or take a
-  break (so anyone picking it up, you included, gets the state without reading the whole
-  log); the final rewrite happens at "Closing out", below
+- A `TL;DR` section — update it with the current status every time you pause, take a break,
+  or hit a human-in-the-loop point (so anyone picking it up, you included, gets the state
+  without reading the whole log); the final rewrite happens at "Closing out", below
 
 **Discipline while working:**
 - Log every action and result *as it happens* — before it happens, if you can (write the
@@ -142,23 +144,23 @@ O: `more readme.txt` fails.
 more: cannot open readme.txt: Permission denied
 ```
 
-H: the file has the wrong permissions.
+H1: the file has the wrong permissions.
 
-H: we are not the user we think we are.
+H2: we are not the user we think we are.
 
 D: candidate actions — (1) `ls -l readme.txt` to check permissions (easy, informative, tests
 H1); (2) `id` to check the current user (tests H2). Start with (1).
 
-A: executing D(1) toward the objective — read-only, no human-in-the-loop needed.
+A: executing D(1) toward the objective, to test H1 — read-only, no human-in-the-loop needed.
 
 ```
 % ls -l readme.txt
 ----------  1 peter  wheel  48 Jan 25 12:32 readme.txt
 ```
 
-O: permissions are `000`, expected `644` → H "wrong permissions" accepted; H "wrong user" not
-needed. Next iteration: decide how to fix (and `chmod` on someone else's file is where a
-human-in-the-loop check would kick in).
+O: permissions are `000`, expected `644` → H1 accepted; H2 not needed. Next iteration: decide
+how to fix (and `chmod` on someone else's file is where a human-in-the-loop check would kick
+in).
 
 Each step is its own blank-line-separated paragraph; the verdict lives in the closing `O:`,
 so no one has to re-read the `A:` output to know the loop resolved.

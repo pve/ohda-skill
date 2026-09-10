@@ -23,6 +23,9 @@
 - Worklog is Markdown: each O/H/D/A step is its own blank-line-separated
   paragraph, raw output in fenced code blocks — so it actually renders.
   Worked example rewritten to match.
+- Hypotheses are numbered `H1`, `H2`, … so `D:`/`O:` lines can reference
+  one unambiguously; worked example updated.
+- A human-in-the-loop pause is also a trigger for updating the `TL;DR`.
 
 ## 1.1.0 — 2026-08-26
 - Every `A:` must be immediately followed by an `O:` that explicitly closes
