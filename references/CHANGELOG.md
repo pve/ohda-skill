@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.3.0 — 2026-09-11
+- Lessons from a real incident log (promptfoo/BIG_O timeout diagnosis) that
+  needed rework after the fact:
+- TL;DR: made explicit there is exactly **one**, updated in place — a second
+  TL;DR appended further down was the actual mistake seen.
+- Observe: the replayability test now also covers *what you cite* — point at
+  reproducible identifiers (job/run/request IDs, timestamps), never a line
+  number into a local/temp file only you can open.
+- Observe: when the objective includes handing findings to an outside party,
+  check early whether your own logging/capture is detailed enough for that —
+  don't discover a capture gap (e.g. a truncated error message) only while
+  writing the final report.
+- Hypothesize: a hypothesis the loop moves past without testing must be
+  marked explicitly ("not tested — still open"), not left to drop silently.
+- Header/Objective: if the original objective becomes unreachable as stated,
+  update it in place and redefine what "done" now means, instead of leaving
+  it stale against a log that moved on.
+- Worklog discipline: evidence discovered late (e.g. while drafting a report)
+  that logically belongs earlier gets inserted in its logical place, with an
+  explicit note that it was moved and why — not appended at the end out of
+  chronological order.
+
 ## 1.2.0 — 2026-09-10
 - Source pinned to the actual video: "Introducing the OHDA method for
   professional IT troubleshooting" (Club Cloud Computing, 2024-01-25),

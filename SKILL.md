@@ -1,7 +1,7 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.2.0
+version: 1.3.0
 ---
 
 # OHDA method
@@ -35,7 +35,15 @@ deciding are written down.**
    Result: a description of the situation, concrete enough that someone else could reproduce
    or at least review it. Copy/paste actual output — don't paraphrase. **Test for "concrete
    enough":** hand the write-up to someone who wasn't there — can they understand it and move
-   to the next step without asking you? If not, it's not observed yet.
+   to the next step without asking you? If not, it's not observed yet. That includes *what you
+   cite*: point at reproducible identifiers (job/run/pipeline IDs, timestamps, request IDs) —
+   never a line number or path into a local/temp file only you can open; a reader without your
+   machine must still be able to check the claim.
+   If the objective includes handing findings to an outside party (another team, a vendor),
+   check early whether your own logging/capture would actually satisfy them — don't find out
+   only while writing the final report that a message got truncated or a detail was never
+   captured. That gap is itself worth an `H:`/`D:`/`A:` (fix the capture) rather than a
+   footnote.
 2. **H — Hypothesize.** Research possible causes. Sources: your own mental model of how the
    system *should* work (decompose it into parts — each part is a hypothesis that it's the
    broken one), search engines/error messages, earlier OHDA logs on a similar problem, asking
@@ -44,6 +52,9 @@ deciding are written down.**
    so later `D:` and `O:` lines can refer to a hypothesis unambiguously. Hypothesizing may
    itself need small experiments that don't solve anything but feed new observations back
    into the loop — that's fine, log them as `O:` like any other.
+   If the loop moves on (problem solved, or priorities shift) before a hypothesis was ever
+   tested, say so explicitly (`H2: not tested — still open`) instead of letting it silently
+   drop; a reader shouldn't have to infer whether it was ruled out or just forgotten.
 3. **D — Decide.** Before doing anything, write down the 2-3 best candidate actions. A good
    action is hypothesis-driven, easy to execute, quick-turnaround, informative, and plausibly
    successful — usually a trade-off between "easy" and "informative". Every candidate action
@@ -79,11 +90,15 @@ under its step; keep your own typed notes as prose so the two are visually disti
 
 **Header, once, at the top:**
 - Title of the problem
-- Objective — what "done" looks like
+- Objective — what "done" looks like. If reality makes the original objective unreachable as
+  stated (a resource limit, a scope cut, a timeout), update it in place rather than leaving it
+  stale — say so and redefine what "done" now means, so the header still matches the log.
 - Author, start date
-- A `TL;DR` section — update it with the current status every time you pause, take a break,
-  or hit a human-in-the-loop point (so anyone picking it up, you included, gets the state
-  without reading the whole log); the final rewrite happens at "Closing out", below
+- A `TL;DR` section — **one**, kept current: update it *in place* every time you pause, take a
+  break, or hit a human-in-the-loop point (so anyone picking it up, you included, gets the
+  state without reading the whole log). Replace its text; never append a second TL;DR further
+  down — a reader should never have to figure out which one is current. The final rewrite
+  happens at "Closing out", below.
 
 **Discipline while working:**
 - Log every action and result *as it happens* — before it happens, if you can (write the
@@ -94,6 +109,11 @@ under its step; keep your own typed notes as prose so the two are visually disti
   actually run.
 - Include rabbit holes. They warn the next reader off the same dead end — or turn out not to
   be a dead end after all under a slightly different approach.
+- Evidence found later (e.g. while writing up a report for someone else) that logically
+  belongs earlier in the loop still gets inserted where it belongs, not tacked onto the end —
+  a reader follows the log top-to-bottom as the reasoning unfolded. If you must reorder past
+  entries to keep that true, say so plainly (e.g. "moved before D2, found while drafting the
+  external report") so no one wonders whether the log was silently rewritten.
 - A shared location (visible to a teammate) is a feature, not a nice-to-have — give someone
   else a chance to jump in.
 
