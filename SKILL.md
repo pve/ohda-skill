@@ -1,7 +1,7 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.3.0
+version: 1.3.1
 ---
 
 # OHDA method
@@ -79,6 +79,14 @@ on, not just *that* it did. That `O:` is also the seed observation for the next 
 
 Stop when the observation matches the expectation. Otherwise, loop again — most real
 diagnoses take multiple passes.
+
+**A fix is not closed by reasoning alone.** After an `A:` that applies a fix based on a
+hypothesis (even a hypothesis confirmed by reading source code, a config value, or other
+solid evidence), the loop is not done until a fresh `O:` shows the *actual* symptom is gone —
+observation matching expectation, not expectation matching expectation. "I found the
+mechanism and it explains everything" is a strong `H:`, not an `O:` that closes the loop. Mark
+status as "fix applied, awaiting verification" until that `O:` exists, even if the fix looks
+certain.
 
 ## The worklog
 

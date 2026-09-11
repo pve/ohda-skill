@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.1 — 2026-09-11
+- The loop: made explicit that a fix is not closed by reasoning alone — even a
+  hypothesis confirmed by reading source code or config is still an `H:`, not
+  the closing `O:`. Status stays "fix applied, awaiting verification" until an
+  actual observation shows the symptom is gone. (Caught live: a log was marked
+  "opgelost"/solved on the strength of a source-code-confirmed hypothesis and
+  an applied fix, before the retry that would have supplied the real `O:` had
+  even finished.)
+
 ## 1.3.0 — 2026-09-11
 - Lessons from a real incident log (promptfoo/BIG_O timeout diagnosis) that
   needed rework after the fact:
