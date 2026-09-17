@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.4.0 — 2026-09-17
+- Numbering: every step is numbered per type (`O1`, `H1`, `D1`, `A1`, …), continuing across
+  iterations; worked example made consistent (each candidate action its own `D`).
+- Worklog is strictly append-only, with explicit exceptions (TL;DR, objective
+  clarifications, closing-out edits). Late evidence is no longer inserted earlier in the
+  log but appended as a new `O` referencing the step it bears on (`O7 (re H1): …`).
+- Objective changed, unreachable, or log beyond ~1000 lines: suggest closing out and
+  starting a new log that refers to the old one (replaces redefining the objective in
+  place). Added as closing-out trigger.
+- Log in a git repo: commit and push regularly; pushing the log needs no human-in-the-loop,
+  but only after a secrets check.
+- New: tune the log for its readers (human and agent personas, their skills and mental
+  models).
+- Default log location no longer prescribed as outside any git repo; still confirm with the
+  user.
+- Source attribution: Digital Infrastructures / Club Cloud Computing.
+
 ## 1.3.1 — 2026-09-11
 - The loop: made explicit that a fix is not closed by reasoning alone — even a
   hypothesis confirmed by reading source code or config is still an `H:`, not

@@ -5,7 +5,7 @@ Claude Code skill formalizing Peter van Eijk's OHDA troubleshooting method
 worklog convention for non-trivial technical diagnosis sessions.
 
 Source material: "Introducing the OHDA method for professional IT
-troubleshooting" (Club Cloud Computing, 2024-01-25) —
+troubleshooting" (Digital Infrastructures / Club Cloud Computing, 2024-01-25) —
 <https://www.youtube.com/watch?v=rQ5MpGWCiUw>. A flattened transcript is in
 `references/source-transcript-2024-01-25.srt`. See `SKILL.md` for the full
 method and worklog conventions.

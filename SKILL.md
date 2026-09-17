@@ -1,14 +1,15 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.3.1
+version: 1.4.0
 ---
 
 # OHDA method
 
 Source: Peter van Eijk, "Introducing the OHDA method for professional IT troubleshooting"
-(Club Cloud Computing, 2024-01-25) — <https://www.youtube.com/watch?v=rQ5MpGWCiUw>,
-transcript in `references/source-transcript-2024-01-25.srt`.
+(Digital Infrastructures / Club Cloud Computing, 2024-01-25) —
+<https://www.youtube.com/watch?v=rQ5MpGWCiUw>, transcript in
+`references/source-transcript-2024-01-25.srt`.
 See `references/CHANGELOG.md` for what's changed between versions of this skill itself.
 
 ## Why
@@ -30,6 +31,10 @@ the reflection takes practice and you'll still derail now and then.
 Troubleshooting is a loop through four steps, repeated until the observation matches
 expectation. **Enforce the order — don't skip ahead to acting before hypothesizing and
 deciding are written down.**
+
+**Number every step per type** — `O1`, `O2`, …, `H1`, …, `D1`, …, `A1`, … — continuing
+across iterations (never restart at 1), so any later step can refer to an earlier one
+unambiguously.
 
 1. **O — Observe.** What do you see that you don't expect, or expect that you don't see?
    Result: a description of the situation, concrete enough that someone else could reproduce
@@ -64,15 +69,18 @@ deciding are written down.**
 4. **A — Act.** Execute your best shot, and make it traceable/replayable (e.g. record the
    exact command, a git commit id). Record the result *before* moving on. Every `A:` must
    name the `D:` it executes and the objective it serves, so a reader never has to guess
-   which decision this action came from or what it's working toward. **Before acting, ask
-   whether this action reasonably needs a human in the loop** — anything destructive,
-   outward-facing, hard to reverse, or outside the mandate you were given — and if so, stop
-   and get explicit confirmation instead of executing. A human-in-the-loop pause is also a
-   natural moment to update the `TL;DR` — whoever you hand to gets the state for free.
+   which decision this action came from or what it's working toward. **Before acting,
+   consider whether this action reasonably needs a human in the loop** — anything
+   destructive, outward-facing, hard to reverse, or outside the mandate you were given — and
+   if so, stop and get explicit confirmation instead of executing. Exception: pushing the OHDA
+   log itself to its intended remote needs no confirmation, *after* checking it contains no
+   secrets (tokens, passwords, private keys) — when in doubt, ask. A human-in-the-loop pause
+   is also a natural moment to update the `TL;DR` — whoever you hand it to gets the state for
+   free.
 
 **Every `A:` is immediately followed by an `O:` that closes the loop against the hypothesis
 it tested** — not just "here's the output", but an explicit verdict: what you now see, what
-you expected, and whether the hypothesis is accepted or rejected. E.g. `O: permissions are
+you expected, and whether the hypothesis is accepted or rejected. E.g. `O2: permissions are
 000, not 644 as expected → H1 accepted`. This is what makes the log
 replayable reasoning rather than a bare transcript — a reader can follow *why* the loop moved
 on, not just *that* it did. That `O:` is also the seed observation for the next iteration.
@@ -90,17 +98,14 @@ certain.
 
 ## The worklog
 
-One growing Markdown file per topic, append-only in spirit (dead-ends get struck through
-later, never deleted). Each step is its own paragraph starting `O:`, `H:`, `D:`, or `A:`,
-with a **blank line before and after** so it renders as a separate paragraph — don't let
-consecutive steps collapse into one block. Put raw computer output in a fenced code block
-under its step; keep your own typed notes as prose so the two are visually distinct.
+One growing Markdown file per topic. Each step adds its own paragraph starting `O1:`, `H1:`,
+`D1:`, `A1:` etc. (see numbering under "The loop"), with a **blank line before and after**
+so it renders as a separate paragraph — don't let consecutive steps collapse into one block.
+Put raw computer output in a fenced code block under its step; keep your own typed notes as prose so the two are visually distinct.
 
 **Header, once, at the top:**
 - Title of the problem
-- Objective — what "done" looks like. If reality makes the original objective unreachable as
-  stated (a resource limit, a scope cut, a timeout), update it in place rather than leaving it
-  stale — say so and redefine what "done" now means, so the header still matches the log.
+- Objective — what "done" looks like.
 - Author, start date
 - A `TL;DR` section — **one**, kept current: update it *in place* every time you pause, take a
   break, or hit a human-in-the-loop point (so anyone picking it up, you included, gets the
@@ -117,33 +122,40 @@ under its step; keep your own typed notes as prose so the two are visually disti
   actually run.
 - Include rabbit holes. They warn the next reader off the same dead end — or turn out not to
   be a dead end after all under a slightly different approach.
-- Evidence found later (e.g. while writing up a report for someone else) that logically
-  belongs earlier in the loop still gets inserted where it belongs, not tacked onto the end —
-  a reader follows the log top-to-bottom as the reasoning unfolded. If you must reorder past
-  entries to keep that true, say so plainly (e.g. "moved before D2, found while drafting the
-  external report") so no one wonders whether the log was silently rewritten.
+- Evidence found later is appended as a new `O:` that names the earlier step it bears on
+  (e.g. `O7 (re H1): …`).
+- The log is append-only. Exceptions: the `TL;DR`, clarifications of the objective (a
+  *changed* objective means a new log, see below), and the edits defined under "Closing out".
 - A shared location (visible to a teammate) is a feature, not a nice-to-have — give someone
-  else a chance to jump in.
+  else a chance to jump in. If the log is in a git repository, commit and push regularly
+  (see the secrets check under "A — Act").
+- The accruing worklog will be read by humans and other agents. Some are the main
+  stakeholder for the problem at hand, some need information to help fix it. Think for a
+  moment who these are, imagine personas with their skills and mental models, and tune the
+  log so it is readable and understandable to them.
+- Suggest to the user to close the log out and start a new OHDA log that refers to this one
+  when: the log grows beyond ~1000 lines, it takes a new turn compared to the original
+  objective, or reality makes the objective unreachable as stated (a resource limit, a scope
+  cut, a timeout).
 
 **Filename convention:** `OHDA log, <date> <topic>` (or a filesystem-safe variant of that,
 e.g. `ohda-<topic>--<date>.md`) — consistent naming is what makes old logs findable later,
-including as a `H:` source for a future, similar problem.
+including as an `H:` source for a future, similar problem.
 
 **Where the file lives:** this skill is project-local by design — it does not hardcode a
 path. Before starting a new log:
 1. Check the project's CLAUDE.md (or equivalent contract doc) for an existing worklog
    convention — if one exists (e.g. "worklogs live in `~/tmp/<topic>/`, outside the repo"),
    follow it exactly.
-2. If none exists, propose a sensible default (a location outside any git repo the project
-   uses, so the log is a working artifact rather than committed history) and confirm with the
-   user before creating it — don't silently invent a convention for a project that doesn't
-   have one yet.
+2. If none exists, propose a sensible default and confirm with the user **before** creating
+   it — don't silently invent a convention for a project that doesn't have one yet.
 
 ## Closing out
 
 Not automatic — triggered explicitly (e.g. "sluit de OHDA-log af", "close this out", "maak
 een lesson learned"). But **do suggest it** once a session reaches a natural stopping point:
-the problem is solved, or you've concluded it's a dead end.
+the problem is solved, you've concluded it's a dead end, or one of the new-log triggers
+under "Discipline while working" applies (too long, new turn, objective unreachable).
 
 On close:
 1. Write/update the `TL;DR` at the top: problem summary, current status, and — if solved —
@@ -165,7 +177,7 @@ On close:
 
 Objective: read `readme.txt`.
 
-O: `more readme.txt` fails.
+O1: `more readme.txt` fails.
 
 ```
 % more readme.txt
@@ -176,17 +188,19 @@ H1: the file has the wrong permissions.
 
 H2: we are not the user we think we are.
 
-D: candidate actions — (1) `ls -l readme.txt` to check permissions (easy, informative, tests
-H1); (2) `id` to check the current user (tests H2). Start with (1).
+D1: `ls -l readme.txt` to check permissions (easy, informative, tests H1)
 
-A: executing D(1) toward the objective, to test H1 — read-only, no human-in-the-loop needed.
+D2: `id` to check the current user (tests H2).
+
+A1: executing D1 (cheapest; tests H1) toward the objective — read-only, no human-in-the-loop
+needed.
 
 ```
 % ls -l readme.txt
 ----------  1 peter  wheel  48 Jan 25 12:32 readme.txt
 ```
 
-O: permissions are `000`, expected `644` → H1 accepted; H2 not needed. Next iteration: decide
+O2: permissions are `000`, expected `644` → H1 accepted; H2 not needed. Next iteration: decide
 how to fix (and `chmod` on someone else's file is where a human-in-the-loop check would kick
 in).
 
