@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.5.0 — 2026-09-23
+- Lessons from a real log (a local, containerised comparison of a Jev-compatible judge,
+  where the diagnosis relied on third-party source code and self-written probe scripts).
+  The log was sound as reasoning but not self-contained: the upstream repo was cited as
+  "branch `main`", the scripts every `A:` ran lived only in a session scratch directory, the
+  final result table too, and the containers were removed without the log saying so.
+- O — Observe: pin every external source (commit SHA and permalinks, package version plus
+  hash, model/data hash, URL plus read date); say so explicitly when a source can't be
+  pinned.
+- A — Act: scripts, probes and config files an action runs belong with the log (inline or
+  in a linked folder next to it), never only in a scratch/temp directory.
+- Header: new **Reproduce** section (environment, inputs, commands to rebuild the setup).
+- Discipline: keep the evidence an `O:` rests on next to the log; log teardown of
+  environment the log refers to.
+- Closing out: new cold-reader check (temp paths, unpinned sources, scripts named but not
+  included, torn-down environment); promoting the lesson learned is now step 4.
+
 ## 1.4.0 — 2026-09-17
 - Numbering: every step is numbered per type (`O1`, `H1`, `D1`, `A1`, …), continuing across
   iterations; worked example made consistent (each candidate action its own `D`).

@@ -1,7 +1,7 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.4.0
+version: 1.5.0
 ---
 
 # OHDA method
@@ -44,6 +44,12 @@ unambiguously.
    cite*: point at reproducible identifiers (job/run/pipeline IDs, timestamps, request IDs) —
    never a line number or path into a local/temp file only you can open; a reader without your
    machine must still be able to check the claim.
+   **Pin every external source** to something that won't move: a git repo by commit SHA
+   (and permalinks to files at that commit, not to `main`), a package by name, version and
+   hash, a model or data file by hash, a web page by URL plus the date you read it. "Branch
+   `main`" or "the latest release" is not a citation — it points somewhere else tomorrow.
+   If a source can't be pinned (e.g. a published package that doesn't record the commit it
+   was built from), say so explicitly rather than leaving the reader to assume it can.
    If the objective includes handing findings to an outside party (another team, a vendor),
    check early whether your own logging/capture would actually satisfy them — don't find out
    only while writing the final report that a message got truncated or a detail was never
@@ -67,7 +73,11 @@ unambiguously.
    it's not worth the slot. At large scale, candidate actions written this explicitly can be
    parcelled out to different people/teams to run in parallel.
 4. **A — Act.** Execute your best shot, and make it traceable/replayable (e.g. record the
-   exact command, a git commit id). Record the result *before* moving on. Every `A:` must
+   exact command, a git commit id). If the action runs a script, a probe or a config file you
+   wrote for it, that file belongs **with the log** — inline in the step if it's short, or in a
+   folder next to the log file that the log links to — never only in a scratch or temp
+   directory that disappears with the session. A command in the log that calls a script
+   nobody else has is not replayable. Record the result *before* moving on. Every `A:` must
    name the `D:` it executes and the objective it serves, so a reader never has to guess
    which decision this action came from or what it's working toward. **Before acting,
    consider whether this action reasonably needs a human in the loop** — anything
@@ -107,6 +117,11 @@ Put raw computer output in a fenced code block under its step; keep your own typ
 - Title of the problem
 - Objective — what "done" looks like.
 - Author, start date
+- A **Reproduce** section: the environment (hosts, container images, networks, tool and
+  package versions), the inputs (data sets, run IDs, commits) and the commands or scripts
+  to rebuild the setup from scratch. Fill it in as the setup takes shape; it is the part a
+  reader needs before any `A:` makes sense, and it's easy to leave scattered over context
+  notes and individual steps.
 - A `TL;DR` section — **one**, kept current: update it *in place* every time you pause, take a
   break, or hit a human-in-the-loop point (so anyone picking it up, you included, gets the
   state without reading the whole log). Replace its text; never append a second TL;DR further
@@ -120,6 +135,13 @@ Put raw computer output in a fenced code block under its step; keep your own typ
   the log first, then copy them into the terminal — not the other way around. That makes a
   wrong command trivial to fix and retry, keeping the log the source of truth for what was
   actually run.
+- Keep the evidence, not just the verdict. Raw output that an `O:` rests on (a result table,
+  a comparison, a measurement file) goes next to the log or behind a stable reference, same
+  as the scripts under "A — Act". A verdict whose evidence lived in a temp directory can't be
+  re-checked.
+- Tearing down is a step too. When you remove containers, images, temp data or other
+  environment the log refers to, log that — otherwise a reader assumes the setup still
+  exists and goes looking for it.
 - Include rabbit holes. They warn the next reader off the same dead end — or turn out not to
   be a dead end after all under a slightly different approach.
 - Evidence found later is appended as a new `O:` that names the earlier step it bears on
@@ -165,7 +187,16 @@ On close:
    the fact that a path was tried and failed is itself valuable information for the next
    reader. Make the log more self-contained: fill in the "wait, what was that again" gaps you
    glossed over while moving fast.
-3. **Promote the lesson learned into the project's CLAUDE.md by default**, under a
+3. **Cold-reader check.** Read the log as someone without your machine or your session, and
+   fix what they would trip over:
+   - paths into scratch/temp/home directories (`/tmp`, a scratchpad, `~/…`) — move the file
+     next to the log or replace the reference;
+   - external sources that aren't pinned (see "O — Observe");
+   - scripts or config files that a step names but the log doesn't contain or link to;
+   - environment the log refers to that has since been torn down without saying so.
+   A quick search of the log for `/tmp`, `scratch`, `main`, `latest` and the names of the
+   scripts you ran catches most of it.
+4. **Promote the lesson learned into the project's CLAUDE.md by default**, under a
    `## Lessons learned` section (create it if absent) — one entry per closed-out log, dated,
    with a one/two-line summary and a link/path to the full worklog. CLAUDE.md is already read
    at the start of every session in this project, so this is what actually gets a lesson
