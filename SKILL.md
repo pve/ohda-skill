@@ -1,7 +1,7 @@
 ---
 name: ohda
 description: Run non-trivial technical troubleshooting/diagnosis as an OHDA loop (Observe → Hypothesize → Decide → Act) with a replayable worklog. Use whenever you're about to debug or diagnose something where the cause isn't already obvious — an error, an unexpected state, a "why is X broken" — and more than one quick check will be needed. Not for trivial one-shot fixes (typo, single obvious command). Also handles closing out a worklog into a "lesson learned" (TL;DR + dead-ends kept, crossed out, not deleted).
-version: 1.5.0
+version: 1.5.1
 ---
 
 # OHDA method
@@ -79,8 +79,8 @@ unambiguously.
    disappears with the session or that your reader can't reach. A command in the log that
    calls a script nobody else has is not replayable. Record the result *before* moving on.
    Every `A:` must name the `D:` it executes and the objective it serves, so a reader never
-   has to guess
-   which decision this action came from or what it's working toward. **Before acting,
+   has to guess which decision this action came from or what it's working toward (the
+   exception is housekeeping, e.g. a teardown — see "Discipline while working"). **Before acting,
    consider whether this action reasonably needs a human in the loop** — anything
    destructive, outward-facing, hard to reverse, or outside the mandate you were given — and
    if so, stop and get explicit confirmation instead of executing. Exception: pushing the OHDA
@@ -142,8 +142,10 @@ prose so the two are visually distinct.
   a comparison, a measurement file) goes next to the log or behind a stable reference, same
   as the scripts under "A — Act". A verdict whose evidence is gone can't be re-checked.
 - Tearing down is a step too. When you remove containers, images, temp data or other
-  environment the log refers to, log that — otherwise a reader assumes the setup still
-  exists and goes looking for it.
+  environment the log refers to, log it as an `A:` — otherwise a reader assumes the setup
+  still exists and goes looking for it. Housekeeping like this is the one `A:` that serves no
+  `D:`; say what you removed and why instead ("A9: removed the two test containers — done
+  with them, nothing above refers to them any more").
 - Include rabbit holes. They warn the next reader off the same dead end — or turn out not to
   be a dead end after all under a slightly different approach.
 - Evidence found later is appended as a new `O:` that names the earlier step it bears on
@@ -163,15 +165,17 @@ prose so the two are visually distinct.
   objective, or reality makes the objective unreachable as stated (a resource limit, a scope
   cut, a timeout).
 
-**Filename convention:** `OHDA log, <date> <topic>` (or a filesystem-safe variant of that,
-e.g. `ohda-<topic>--<date>.md`) — consistent naming is what makes old logs findable later,
-including as an `H:` source for a future, similar problem.
+**Filename convention:** `ohda-YYYY-MM-DD-<topic>.md` — date first so logs sort
+chronologically, prefixed so they stand out in a mixed directory. Consistent naming is what
+makes old logs findable later, including as an `H:` source for a future, similar problem. A
+project that prescribes its own naming or a directory to collect logs in (see below) wins
+over this default.
 
 **Where the file lives:** this skill is project-local by design — it does not hardcode a
 path. Before starting a new log:
 1. Check the project's CLAUDE.md (or equivalent contract doc) for an existing worklog
-   convention — if one exists (e.g. "worklogs live in `~/tmp/<topic>/`, outside the repo"),
-   follow it exactly.
+   convention — if one exists (e.g. "logs live in `ohda/` in the repo", or "in
+   `~/tmp/<topic>/`, outside it"), follow it exactly.
 2. If none exists, propose a sensible default and confirm with the user **before** creating
    it — don't silently invent a convention for a project that doesn't have one yet.
 
