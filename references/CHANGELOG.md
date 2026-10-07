@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.1 — 2026-10-07
+- Filename convention is now `ohda-YYYY-MM-DD-<topic>.md` (date first, so logs sort
+  chronologically), replacing `OHDA log, <date> <topic>` / `ohda-<topic>--<date>.md`. A
+  project's own naming or collecting directory still wins.
+- "Where the file lives" now gives both shapes as examples: a directory in the repo
+  (`ohda/`) or a location outside it (`~/tmp/<topic>/`).
+- Teardown is logged as an `A:`, and is named as the one exception to "every `A:` names the
+  `D:` it executes" — housekeeping serves no decision. The rule said to log teardown but not
+  under which prefix, while the `A:` rule demanded a `D:` that can't exist.
+
 ## 1.5.0 — 2026-09-23
 - Lessons from a real log (a local, containerised comparison of a Jev-compatible judge,
   where the diagnosis relied on third-party source code and self-written probe scripts).
