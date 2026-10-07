@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.5.0 — 2026-09-23
+- Lessons from a real log (a local, containerised comparison of a Jev-compatible judge,
+  where the diagnosis relied on third-party source code and self-written probe scripts).
+  The log was sound as reasoning but not self-contained: the upstream repo was cited as
+  "branch `main`", the scripts every `A:` ran lived only in a session scratch directory, the
+  final result table too, and the containers were removed without the log saying so.
+- O — Observe: pin every external source (commit SHA and permalinks, package version plus
+  hash, model/data hash, URL plus read date); say so explicitly when a source can't be
+  pinned.
+- A — Act: scripts, probes and config files an action runs belong with the log (inline or
+  in a linked folder next to it), never only somewhere that disappears with the session or
+  that the reader can't reach.
+- A — Act: the secrets check before pushing now covers the log *and* everything in its
+  folder (pasted output, scripts, configs), since those are what carry tokens and internal
+  hostnames.
+- Header: new **Reproduce** section (environment, inputs, commands to rebuild the setup),
+  below the `TL;DR` and listed as an append-only exception, as it is filled in in place.
+- Discipline: keep the evidence an `O:` rests on next to the log; log teardown of
+  environment the log refers to.
+- Closing out: new cold-reader check (unreachable file references, unpinned sources,
+  scripts named but not included, torn-down environment); promoting the lesson learned is
+  now step 4. The check judges whether a referenced file survives and is reachable, not
+  whether its path looks temporary — a project-prescribed worklog directory is fine.
+
 ## 1.4.0 — 2026-09-17
 - Numbering: every step is numbered per type (`O1`, `H1`, `D1`, `A1`, …), continuing across
   iterations; worked example made consistent (each candidate action its own `D`).
