@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.6.0 — 2026-10-12
+- Lessons from a real log (a Home Assistant TTS diagnosis where three mutations and a test
+  were executed in one batch and logged afterwards, the TL;DR said "verified" before the
+  verifying `O:` existed, and an earlier analysis had trusted a "finished" trace for a
+  target that did not exist).
+- Discipline: mutating `A:`s are written (and committed) *before* execution, one per
+  mutation, with the exact command, the timestamp of the go and the reversible pre-state;
+  each is closed by its own `O:` before the next `A:`. Replaces "before it happens, if you
+  can".
+- Loop: a success return from the acted-on system is not an `O:`; observe the effect on the
+  channel where the symptom lives.
+- Append-only: rendering repairs are allowed in place (named in the commit); status/"open"
+  lines are struck through, not removed; open items live in the `TL;DR`.
+
 ## 1.5.1 — 2026-10-07
 - Filename convention is now `ohda-YYYY-MM-DD-<topic>.md` (date first, so logs sort
   chronologically), replacing `OHDA log, <date> <topic>` / `ohda-<topic>--<date>.md`. A

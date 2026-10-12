@@ -106,7 +106,10 @@ solid evidence), the loop is not done until a fresh `O:` shows the *actual* symp
 observation matching expectation, not expectation matching expectation. "I found the
 mechanism and it explains everything" is a strong `H:`, not an `O:` that closes the loop. Mark
 status as "fix applied, awaiting verification" until that `O:` exists, even if the fix looks
-certain.
+certain. A success return from the system you acted on (`finished`, `Successfully executed`,
+exit 0, HTTP 200) is not an `O:` either — it says the request was accepted, not that the
+effect happened. Observe the effect on the channel the symptom lives on (the speaker's play
+history, the file's content, the user's confirmation), and quote that.
 
 ## The worklog
 
@@ -132,8 +135,15 @@ prose so the two are visually distinct.
   context notes and individual steps.
 
 **Discipline while working:**
-- Log every action and result *as it happens* — before it happens, if you can (write the
-  planned `D:` before the `A:` that executes it).
+- Log every action and result *as it happens*. For a **mutating** action (anything that
+  changes a system outside the log) this is not optional: write — and, in a git repo,
+  commit — the `A:` *before* executing it, one `A:` per mutation, containing the exact
+  command, the timestamp of the go, and the pre-state needed to reverse it (the old
+  config/value itself, not just its hash). Execute, then write its closing `O:` before
+  starting the next `A:`. A multi-step `D:` is executed as that many `A:`/`O:` pairs, never
+  as one batch written afterwards — a batch has no real timestamps, no rollback material,
+  and hides which step was still unverified when the next one ran. For read-only actions,
+  write the planned `D:` before the `A:` that executes it.
 - Copy/paste and link liberally: URLs, screenshots, full command lines. Type commands into
   the log first, then copy them into the terminal — not the other way around. That makes a
   wrong command trivial to fix and retry, keeping the log the source of truth for what was
@@ -152,7 +162,11 @@ prose so the two are visually distinct.
   (e.g. `O7 (re H1): …`).
 - The log is append-only. Exceptions: the `TL;DR`, the `Reproduce` section, clarifications of
   the objective (a *changed* objective means a new log, see below), and the edits defined
-  under "Closing out".
+  under "Closing out". Also allowed in place: pure rendering repairs that change no words
+  (escaped backticks, a missing blank line) — name them in the commit message. Not allowed:
+  removing or rewriting a status or "open" line; strike it through and append the step that
+  closes it. Open items live in the `TL;DR`, not in a free-floating line in the body, so a
+  reader finds them without scanning the log.
 - A shared location (visible to a teammate) is a feature, not a nice-to-have — give someone
   else a chance to jump in. If the log is in a git repository, commit and push regularly
   (see the secrets check under "A — Act").
