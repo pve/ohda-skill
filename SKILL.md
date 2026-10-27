@@ -111,6 +111,15 @@ exit 0, HTTP 200) is not an `O:` either — it says the request was accepted, no
 effect happened. Observe the effect on the channel the symptom lives on (the speaker's play
 history, the file's content, the user's confirmation), and quote that.
 
+**Escalating research**. In the first rounds, do a quick check on any existing OHDA logs in the project,
+the problem may have occurred earlier.
+After about 5 unsuccessful Actions, progress to researching the Web with key information such as software names,
+observations or version numbers, looking for plausible and relevant hypotheses.
+
+**Automation**. At all steps make an effort to do the work yourself, instead of asking the user to make the observation,
+hypothesis, decision, or action.
+If you can't, explain to the user why.
+
 ## The worklog
 
 One growing Markdown file per topic. Each step adds its own paragraph starting `O1:`, `H1:`,
@@ -173,7 +182,7 @@ prose so the two are visually distinct.
 - The accruing worklog will be read by humans and other agents. Some are the main
   stakeholder for the problem at hand, some need information to help fix it. Think for a
   moment who these are, imagine personas with their skills and mental models, and tune the
-  log so it is readable and understandable to them.
+  writing style of the log so it is readable and understandable to them.
 - Suggest to the user to close the log out and start a new OHDA log that refers to this one
   when: the log grows beyond ~1000 lines, it takes a new turn compared to the original
   objective, or reality makes the objective unreachable as stated (a resource limit, a scope
