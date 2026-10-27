@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.7.0 — 2026-10-27
+- Escalating research: in the first rounds, check the project's existing OHDA logs, since
+  the problem may have occurred before. After about 5 unsuccessful Actions, research the web
+  with key information such as software names, observations and version numbers, looking for
+  plausible and relevant hypotheses.
+- Automation: at every step, do the observing, hypothesizing, deciding and acting yourself
+  instead of asking the user to do it. If you can't, explain to the user why.
+- Worklog: tune the writing style of the log to its readers (wording only, no change in
+  rules).
+
 ## 1.6.0 — 2026-10-12
 - Lessons from a real log (a Home Assistant TTS diagnosis where three mutations and a test
   were executed in one batch and logged afterwards, the TL;DR said "verified" before the
